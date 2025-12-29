@@ -1,0 +1,906 @@
+id,surname,name,gender,birth,death,wedding,generation,birth_city,wedding_city,death_city,notes,show_parent,job,address,father,mother
+int,str,str,str,str,str,str,int,str,str,str,str,bool,str,str,int,int
+0,Malo,HANGRAN,M,24-12-1999,,,0,Rennes,,,'',True,,,1,2
+1,Marc,HANGRAN,M,17-07-1969,,06-08-1994,1,Sainte-Adresse,Mordelles,,'',True,,,5,6
+2,Anne-Claude,CATHELINE,F,30-09-1970,,06-08-1994,1,Rennes,Mordelles,,'',True,Enseignante,,3,4
+3,Jean-Claude,CATHELINE,M,03-11-1943,,06-12-1969,2,Monterfil,Monterfil,,'',True,,,46,45
+4,Annick,PAVIOT,F,06-07-1945,,06-12-1969,2,Monterfil,Monterfil,,'',True,,,8,7
+5,Daniel,HANGRAN,M,01-12-1941,,19-04-1966,2,Barentin,Dieppe,,'',True,,,577,578
+6,Maryvonne,JAN,F,05-03-1942,,19-04-1966,2,,Dieppe,,'',True,,,39,40
+7,Maria Joséphine,LERAY,F,23-01-1921,29-10-2017,04-10-1944,3,Mordelles,Breal-sous-Montfort,Monterfil,'',True,,,543,544
+8,Marcel Pierre Marie Joseph,PAVIOT,M,30-08-1905,26-09-1956,04-10-1944,3,Talensac,Breal-sous-Montfort,Monterfil,'',True,,,9,10
+9,Pierre-Marie,PAVIOT,M,13-11-1865,1939,05-07-1904,4,Talensac,Monterfil,Monterfil,'',True,Cultivateur,,11,12
+10,Adèle Marie Joseph,MESNIL,F,12-12-1879,06-07-1952,05-07-1904,4,Monterfil,Monterfil,Monterfil,'',True,Cultivatrice,,13,14
+11,Jean Marie,PAVIOT,M,22-07-1837,04-03-1886,18-10-1864,5,Cintre,Talensac,Talensac,'',True,Laboureur / Cultivateur,Talensac,15,18
+12,Marie Joséphine,DAUVERGNE,F,05-07-1837,,18-10-1864,5,Talensac,Talensac,,'A une jumelle : Rose Françoise DAUVERGNE',True,Cultivatrice,Talensac,21,22
+13,Jean Marie,MESNIL,M,11-10-1834,18-12-1887,25-05-1873,5,Monterfil,Monterfil,Monterfil,'Premier mariage : Jeanne Brulard décédée à Monterfil le 06-11-1871',True,Cultivateur,Monterfil,27,28
+14,Marie Josephe,AUBRY,F,01-09-1846,,25-05-1873,5,Monterfil,Monterfil,,'',True,Cultivatrice,Monterfil,33,34
+15,Jean Marie,PAVIOT,M,08-04-1801,17-02-1858,27-10-1828,6,Talensac,Cintre,Breal-sous-Montfort,'Né le 18 Germinal An 9',True,Cultivateur,Talensac puis Breal-sous-Montfort,16,17
+16,Joseph,PAVIOT,M,08-09-1766,13-04-1843,02-08-1796,7,Talensac,Talensac,Talensac,'',False,Cultivateur / Laboureur,Talensac,63,64
+17,Jeanne,MAURAIS,F,07-02-1769,27-09-1847,02-08-1796,7,Talensac,Talensac,Talensac,'',False,Cultivatrice,Talensac,87,89
+18,Perrinne Marie,POULNAIS,F,10-02-1801,,27-10-1828,6,Breteil,Cintre,,'Née le 21 Pluviose An 9',True,Cultivatrice,Cintre puis Talensac,19,20
+19,Joseph,POULNAIS,M,13-08-1769,24-07-1828,21-09-1795,7,Breteil,Breteil,Cintre,'',False,,,126,127
+20,Marie,VILBOUX,F,22-02-1770,28-12-1814,21-09-1795,7,Breteil,Breteil,Cintre,'',False,,,144,150
+21,Pierre,DAUVERGNE,M,20-11-1798,,28-07-1827,6,Talensac,Breal-sous-Montfort,,'Né le 30 Brumaire An 7',True,Cultivateur,Talensac,23,24
+22,Anne Marie,JEHANNIN,F,20-07-1802,,28-07-1827,6,Breal-sous-Montfort,Breal-sous-Montfort,,'Acte de naissance introuvable',True,Cultivatrice,Talensac,25,26
+23,Vincent,DAUVERGNE,M,..-..-1753,31-05-1823,15-07-1788,7,Goven,Breal-sous-Montfort,Breal-sous-Montfort,'',False,Laboureur,Talensac,276,282
+24,Jeanne,FOUCAUT,F,..-..-1765,13-05-1840,15-07-1788,7,Breal-sous-Montfort,Breal-sous-Montfort,Talensac,'',False,,Talensac,292,291
+25,René,JEHANNIN,M,25-09-1771,24-07-1835,07-10-1793,7,Breal-sous-Montfort,Breal-sous-Montfort,Breal-sous-Montfort,'',False,Adjoint de la commune,,309,310
+26,Marie,FAVERAIS,F,11-04-1777,07-02-1845,07-10-1793,7,Breal-sous-Montfort,Breal-sous-Montfort,Breal-sous-Montfort,'',False,,,360,361
+27,Pierre,MESNY,M,13-09-1799,25-10-1860,02-11-1827,6,Monterfil,Monterfil,Monterfil,'Né le 27 Fructidor An 7\nActe de mariage / décès : MESNIL',True,Cultivateur / Laboureur,Monterfil,29,30
+28,Janne,BARBEDOR,F,28-10-1806,18-11-1880,02-11-1827,6,Monterfil,Monterfil,Monterfil,'Se fait appeler Jeanne-Marie plus tard',True,Cultivatrice,Monterfil,31,32
+29,Pierre,MESNIL,M,..-..-1765,..-..-1838,27-07-1790,7,Monterfil,Le Verger,Le Verger,'',False,,Monterfil,409,412
+30,Renee,BESLEE,F,..-..-1770,..-..-1840,27-07-1790,7,Le Verger,Le Verger,Le Verger,'',False,,Monterfil,415,416
+31,Pierre,BARBEDOR,M,07-12-1780,,,7,Talensac,Monterfil,,'',False,Laboureur,Monterfil,435,436
+32,Marie,GESVRET,F,1769,01-04-1826,,7,Monterfil,Monterfil,Monterfil,'',False,,Monterfil,461,462
+33,Jan Marie,AUBRY,M,11-11-1811,,05-07-1841,6,Iffendic,Monterfil,Mordelles,'Né à Iffendic ?',True,Cultivateur / Laboureur,Monterfil,35,36
+34,Anne,SALMON,F,29-01-1806,11-03-1852,05-07-1841,6,Le Verger,Monterfil,Monterfil,'Premier mariage Mathurin GRIVOL décédé le 05-10-1838 à Monterfil',True,Cultivatrice,Monterfil,37,38
+35,Pierre,AUBRY,M,1783,01-04-1826,25-06-1809,7,Monterfil,Monterfil,Iffendic,'décédé le 05-06-1837',False,,,492,493
+36,Marie,ROBERT,F,1790,,25-06-1809,7,Saint-Malon-sur-Mel,Monterfil,,'',False,,,510,511
+37,Jean,SALMON,M,1766,05-10-1838,30-12-1798,7,Breal-sous-Montfort,Breal-sous-Montfort,Monterfil,'',True,,Le Verger,-1,-1
+38,Elisabeth-Jeanne,DETOC,F,1780,04-12-1812,30-12-1798,7,,Breal-sous-Montfort,Monterfil,'',False,,Le Verger,524,525
+39,Marcel Thomas,JAN,M,30-07-1904,06-09-1982,05-02-1934,3,Quimper,Lannion,Saint-Brieuc,'',True,,,43,44
+40,Marie Françoise,MARZIN,F,05-07-1904,30-07-1994,05-02-1934,3,Lannion,Lannion,,'',True,,,41,42
+41,Charles Marie Eugène,MARZIN,M,11-10-1874,07-10-1960,15-01-1900,4,Lannion,Lannion,,"""Frère mort en 1874 à l'âge de 18 ans né en 1856-1855 à Lannion 31-10-55""",True,Mécanicien,,741,742
+42,Honorine Perrine Marie,LE TENSORER,F,03-10-1877,21-04-1949,15-01-1900,4,Lannion,Lannion,Lannion,'',True,Ménagère,,743,744
+43,Louis Jean Marie,JAN,M,18-01-1867,,27-02-1892,4,Châteaulin,Quimper,,'Fratrie : \n- Quimper 1860-1872\n- Chateaulin 1853 - 1872\n- Melrand 1860 - 1867\n- Baud 1860 - 1867',True,Mécanicien à la compagnie du chemin de fer d'Orléans,,745,746
+44,Marie,LIZIAR,F,01-10-1867,06-04-1950,27-02-1892,4,Grenoble,Quimper,Quimper,'Née fille illégitime\nActe de naissance : La 1ère exped^on a été enregistrée à Grenoble le 25 janvier 1892 Case 11',True,Couturière puis Ménagère,Quimper,747,748
+45,Angélina Célestine,REGNAULT,F,08-02-1911,,04-03-1935,3,Plelan-le-Grand,Saint-Peran,,'',True,,,47,48
+46,Emmanuel Jean Mari,CATHELINE,M,16-10-1903,25-04-1973,04-03-1935,3,Monterfil,Saint-Peran,Iffendic,'',True,,,624,625
+47,Joseph Marie Francois,REGNAULT,M,30-03-1869,,19-06-1894,4,Treffendel,Treffendel,,'',True,Cultivateur,,50,49
+48,Célestine Eulalie Armandine Francoise,THOMAS,F,31-03-1875,,19-06-1894,4,Plelan-le-Grand,Treffendel,,'',True,Cultivatrice,,621,620
+49,Jeanne Marie,BERHAULT,F,05-06-1824,06-01-1893,30-07-1850,5,Treffendel,Treffendel,,'',True,Cultivatrice,Treffendel,622,623
+50,Jean,REGNAULT,M,20-12-1815,,30-07-1850,5,Treffendel,Treffendel,,'',True,Cultivateur / Laboureur,Treffendel,52,51
+51,Marie,MEREL,F,31-03-1778,,07-03-1802,6,Treffendel,Treffendel,,'Mariée le 16 Ventôse An 10',True,Cultivatrice,Monterfil,626,627
+52,Jean Joseph,RENAULT,M,05-01-1779,12-03-1849,07-03-1802,6,Treffendel,Treffendel,Rennes,'Marié le 16 Ventôse An 10\nacte de mariage : REGNAULT\nacte de décès : RENAUD',True,Cultivateur,Treffendel puis Monterfil,54,53
+53,Jeanne,DANET,F,06-02-1737,,30-07-1771,7,Treffendel,Treffendel,,'habite treffendel / DANER ? / premier mariage Joseph DU BOIS (un enfant 19 novembre 1768 / un enfant le 23 mai 1767 / un enfant le 14 février 1766 / un enfant le 4 août 1764)',False,,,628,629
+54,Jean,REGNAULT,M,__-05-1742,,30-07-1771,7,Treffendel,Treffendel,,'Problème de registre... les gugusses ont oublié quelques entrées entre 1724 et 1744 et comme par hasard Jean est dans cette liste... donc pas de jour précis de naissance(soeur le 24 octobre 1748 / soeur le 27 octobre 1745 / soeur le 3 décembre 1739 / soeur le 14 mars 1738)',False,,,56,55
+55,Marguerite,ROUXEL,F,,,16-02-1735,8,,Maxent,,'premiere publication mariage 30-01-1735 / vient probablement de maxent',False,,,630,-1
+56,Joseph,REGNAULT,M,05-06-1708,,16-02-1735,8,,Maxent,,"""de 1700 à 1715 : Joseph REGNAULT né le 05-06-1708 (parents Jan REGNAULT et Perrine BELOUARD) / Joseph REGNAULT né le ..-07-1707 (parents Juil et Francoise MENIER) pas d'enterrement jusqu'en 1711 compris pas de mariage 1725-1729 compris / fiancailles 21 janvier 1735 mariage 16 fevrier MAXENT bans à plelan presence perrine belouard !!!!!!!!!!!!!!!!!!!!!!!!!!!!!""",True,,,58,732
+57,Perrine,BELLOUARD,F,23-05-1674,,15-07-1694,9,Treffendel,Treffendel,,'Perrine BELLOUARD née le 23 mai 1674 (parents Guillaume BELLOUARD et Janne LERAND/LORAND//DURAND/ROLLAND/ROLAND)',True,,,730,731
+58,Jan,RENAULT,M,,,15-07-1694,9,,Treffendel,,'du bouloué à son mariage (1650-1675 ) / Jean RENAULT mort 10-05-1673 (2 ans parents : Guillaume RENAULT et Janne COCARDE) / Jean RENAULT né 02-02-1662 (parents Jan RENAULT du bouloué et Janne ROBIN) soeur morte née 25-10-1659 frère Joseph né 16-09-1655 soeur Janne née 1652 frère Jan RENAULT né 02-02-1662 (parents Jan RENAULT et Janne ROBIN) frère Jan RENAULT 15-05-1651 / Jan RENAULT 02-04-1657 (parents Olivier RENAULT et Olive MARCHAND) soeur Francoise 06-1650 / Jan REGNAULT 10-05-1656 (parents Roul REGNAULT et Anne Jouet) / Jan RENAULT 02-02-1655 (parents Mathurin RENAULT et Julienne) / Jan RENAULT 08-04-1653 (parents Mathurin RENAULT et Julienne) /Jan RENAULT 22-03-1652 (parents Jan RENAULT et Julienne MAREL / Jan RENAULT 20-04-1651 (parents Nazaud et Perinne)',True,,,-1,-1
+59,Guillaume,BELLOUARD,M,..-..-1625,21-07-1675,,11,,,Treffendel,'potentiel mariage en ..-..-1659 / mort à 50 ans',True,,,-1,-1
+60,Janne,ROLAND,F,,,,11,,,,'potentiel mariage en ..-..-1659 / potentielle mort en ..-..-1674 / potentiel naissance en ..-..-1635',True,,,-1,-1
+61,Guillaume,PAVIOT,M,05-01-1690,17-10-1767,05-09-1712,9,Saint-Thurial,Talensac,Talensac,'',True,,,65,66
+62,Janne,FAVRAIS,F,08-03-1685,29-02-1736,05-09-1712,9,Talensac,Talensac,Talensac,'',True,,,68,69
+63,Guillaume,PAVIOT,M,02-12-1726,05-09-1769,06-07-1762,8,Talensac,Talensac,Talensac,'',True,,,61,62
+64,Marie,BERHAULT,F,14-07-1735,,06-07-1762,8,Talensac,Talensac,,'',True,,,74,75
+65,Alain,PAVIOT,M,..-..-1658,08-11-1690,31-07-1683,10,Plelan-le-Grand,Saint-Thurial,Saint-Thurial,'',True,,,-1,-1
+66,Jeanne,POULAIN,F,..-..-1658,28-12-1720,31-07-1683,10,Saint-Thurial,Saint-Thurial,Saint-Thurial,'',True,,,67,-1
+67,Jean,POULAIN,M,..-..-1630,,,11,,,,'',True,,,-1,-1
+68,Guillaume,FAVRAIS,M,28-10-1624,26-10-1684,20-03-1670,10,Talensac,Talensac,Talensac,'',True,,,70,71
+69,Olline,ELIE,F,..-..-1640,04-04-1695,20-03-1670,10,Talensac,Talensac,Talensac,'',True,,,72,73
+70,Jacques,FAVRAIS,M,..-..-1595,20-04-1658,..-..-1620,11,,,Talensac,'',True,,,-1,-1
+71,Perrine,MOUAZAN,F,..-..-1595,01-04-1657,..-..-1620,11,,,Talensac,'',True,,,-1,-1
+72,Jean,ELIE,M,..-..-1605,,..-..-1635,11,,,,'',True,,,-1,-1
+73,Bertranne,BOUREE,F,15-01-1603,,..-..-1635,11,Monterfil,,,'',True,,,396,397
+74,Joseph,BERHAULT,M,09-02-1700,28-11-1771,29-07-1732,9,Talensac,Talensac,Talensac,'',True,,,76,77
+75,Anne,GILLES,F,18-03-1712,25-11-1793,29-07-1732,9,Talensac,Talensac,Talensac,'',True,,,81,82
+76,Joseph,BERHAULT,M,..-..-1666,,29-11-1691,10,Talensac,Talensac,,'',True,,,78,-1
+77,Jacquette,JEHANNIN,F,04-02-1667,,29-11-1691,10,Talensac,Talensac,,'',True,,,79,80
+78,Jean,BERHAULT,M,..-..-1640,,,11,,,,'',True,,,-1,-1
+79,Guillaume,JEHANNIN,M,..-..-1635,,..-..-1660,11,,,,'',True,,,-1,-1
+80,Roulette,SAULNIER,F,..-..-1635,,..-..-1660,11,,,,'',True,,,-1,-1
+81,Bertrand,GILLE,M,18-02-1677,28-10-1752,26-01-1705,10,Talensac,Saint-Thurial,Talensac,'',True,,,83,84
+82,Marie,CHAPIN,F,..-..-1688,22-11-1752,26-01-1705,10,Saint-Thurial,Saint-Thurial,Talensac,'',True,,,-1,-1
+83,Bertrand,GILLES,M,22-11-1643,21-04-1729,..-..-1674,11,Talensac,,Talensac,'',True,,,85,86
+84,Francoise,COHAN,F,..-..-1650,04-04-1720,..-..-1674,11,,,Talensac,'',True,,,-1,-1
+85,Jean,GILLES,M,05-01-1610,,,12,Talensac,,,'',True,,,-1,-1
+86,Guillemette,ORESVE,F,..-..-1615,,,12,,,,'',True,,,-1,-1
+87,Michel,MAURAIS,M,..-..-1736,..-..-1769,15-01-1760,8,Talensac,Talensac,,'',True,,,88,93
+88,Michel,MAURAYE,M,16-11-1700,21-10-1766,25-11-1724,9,Talensac,Mordelles,Talensac,'',True,,,94,95
+89,Julienne,COQUE,F,..-..-1736,..-..-1796,15-01-1760,8,Talensac,Talensac,,'',True,,,90,91
+90,Jean,COQUE,M,..-..-1710,..-..-1765,11-01-1735,9,Iffendic,Iffendic,Iffendic,'',True,,,-1,-1
+91,Jeanne,DEMAY,F,..-..-1710,21-10-1766,11-01-1735,9,Iffendic,Iffendic,Iffendic,'',True,,,92,-1
+92,Pierre,DEMAY,M,,,,10,,,Iffendic,'',True,,,-1,-1
+93,Jeanne,BOSSARD,F,..-..-1699,..-..-1765,25-11-1724,9,Mordelles,Mordelles,Talensac,'',True,,,96,97
+94,Michel,MAURAYE,M,..-..-1671,,08-07-1697,10,,Talensac,,'',True,,,-1,-1
+95,Jeanne,GUILLART,F,..-..-1671,,08-07-1697,10,Talensac,Talensac,,'',True,,,-1,-1
+96,Allain,BOSSART,M,08-08-1670,21-12-1737,30-05-1691,10,Mordelles,Mordelles,Mordelles,'',True,,,98,99
+97,Bertranne,HERVELIN,F,06-11-1675,11-09-1733,30-05-1691,10,Mordelles,Mordelles,Rennes,'',True,,,100,101
+98,Julien,BOSSART,M,..-..-1635,..-..-1686,29-07-1660,11,Mordelles,Cintre,Mordelles,'',True,,,102,103
+99,Renee,ROUXEL,F,19-07-1634,15-11-1680,29-07-1660,11,Mordelles,Cintre,Mordelles,'',True,,,107,106
+100,Guillaume,HERVELIN,M,14-05-1655,11-12-1732,28-04-1674,11,Mordelles,Cintre,Mordelles,'',True,,,110,111
+101,Marie,MORLAYE,F,19-04-1655,31-07-1728,28-04-1674,11,Cintre,Cintre,Mordelles,'',True,,,119,116
+102,Jullien,BOSSART,M,..-..-1600,,..-..-1628,12,,,,'',True,,,104,105
+103,Perinne,GROHEU,F,..-..-1600,,..-..-1628,12,,,,'',True,,,-1,-1
+104,Allain,BOSSART,M,..-..-1565,,..-..-1590,13,,,,'',True,,,-1,-1
+105,Guillemette,ROAULT,F,..-..-1565,..-..-1648,..-..-1590,13,,,,'',True,,,-1,-1
+106,Guillemette,LAMBART,F,..-..-1596,29-09-1686,04-01-1627,12,Mordelles,Mordelles,Mordelles,'',True,,,-1,-1
+107,Jan,ROUXEL,M,09-05-1597,,04-01-1627,12,Mordelles,Mordelles,Mordelles,'',True,,,108,109
+108,Guillaume,ROUXEL,M,..-..-1570,..-..-1597,,13,,,,'',True,,,-1,-1
+109,Jeanne,MORAULT,F,..-..-1570,,..-..-1597,13,,,,'',True,,,-1,-1
+110,Pierre,HERVELIN,M,..-..-1630,29-10-1687,18-11-1650,12,Saint-Domineuc,Mordelles,Mordelles,'',True,,,112,113
+111,Perrine,ROBIN,F,16-02-1622,15-10-1688,18-11-1650,12,Mordelles,Mordelles,Mordelles,'',True,,,114,115
+112,Charles,HERVELIN,M,..-..-1600,..-..-1658,..-..-1625,13,Saint-Domineuc,,,'',True,,,-1,-1
+113,Francoise,ROBIOU,F,..-..-1600,18-01-1635,..-..-1625,13,,,Saint-Domineuc,'',True,,,-1,-1
+114,Bertrand,ROBIN,M,..-..-1590,29-09-1661,01-01-1611,13,,Mordelles,Mordelles,'',True,,,-1,-1
+115,Jacquemine,DUBOIS,F,..-..-1590,09-11-1661,01-01-1611,13,Mordelles,Mordelles,Mordelles,'',True,,,-1,-1
+116,Perrine,DESBORDES,F,09-03-1630,09-11-1686,..-..-1650,12,Cintre,,Cintre,'',True,,,117,118
+117,Bertrand,DESBORDES,M,..-..-1600,..-..-1637,..-..-1625,13,,,Cintre,'',True,,,-1,-1
+118,Guillemette,FLAGEUL,F,..-..-1600,,..-..-1625,13,,,Cintre,'',True,,,-1,-1
+119,Jean,MORLAYE,M,..-..-1625,..-..-1684,..-..-1650,12,Cintre,,Cintre,'',True,,,120,121
+120,Jean,MORLAYE,M,04-09-1596,22-12-1666,..-..-1616,13,Cintre,,Cintre,'',True,,,122,123
+121,Julienne,JUBEAUX,F,23-04-1595,..-..-1661,..-..-1616,13,Cintre,,Cintre,'',True,,,124,125
+122,Bertrand,MORLAYE,M,,,,14,,,,'',True,,,-1,-1
+123,Helene,DESBORDES,F,..-..-1577,..-..-1595,,14,,,,'',True,,,-1,-1
+124,Raoul,JUBEAUX,M,..-..-1570,,..-..-1595,14,,,,'',True,,,-1,-1
+125,Guillemette,MAURAIS,F,..-..-1570,,..-..-1595,14,Cintre,,,'',True,,,-1,-1
+126,Francois,POULNAIS,M,29-08-1743,29-11-1811,08-11-1768,8,Bedee,Breteil,Breteil,'',True,,,134,135
+127,Raoulette,DEMAURE,F,31-03-1742,11-11-1793,08-11-1768,8,Breteil,Breteil,Breteil,'',True,,,128,129
+128,Jean,DEMAURE,M,07-10-1710,..-..-1772,30-01-1734,9,Breteil,Breteil,Breteil,'',True,,,130,131
+129,Roulette,DELANOE,F,..-..-1714,06-04-1776,30-01-1734,9,Breteil,Breteil,Breteil,'',True,,,132,133
+130,Jean,DEMAURE,M,..-..-1672,17-07-1719,..-..-1708,10,,,Breteil,'',True,,,-1,-1
+131,Francoise,DELAPORTE,F,..-..-1683,,..-..-1708,10,,,,'',True,,,-1,-1
+132,Jean,DELANOE,M,..-..-1680,..-..-1734,..-..-1713,10,,,,'',True,,,-1,-1
+133,Gilette,MONVOISIN,F,,,..-..-1713,10,,,,'',True,,,-1,-1
+134,Nicolas,POULNAIS,M,16-08-1713,18-10-1774,24-11-1738,9,Bedee,Bedee,La Nouaye,'',True,,,136,137
+135,Olive,RONSIN,F,09-08-1723,..-..-1774,24-11-1738,9,Bedee,Bedee,Bedee,'',True,,,138,139
+136,Guillaume,POULNAIS,M,..-..-1680,25-10-1737,28-01-1702,10,Bedee,Romille,Bedee,'',True,,,-1,-1
+137,Anne,BERTHELOT,F,..-..-1674,03-12-1744,28-01-1702,10,Romille,Romille,Bedee,'',True,,,-1,-1
+138,Guillaume,RONSIN,M,..-..-1694,..-..-1730,17-10-1716,10,Bedee,Bedee,,'',True,,,141,140
+139,Guillemette,MOISAN,F,..-..-1690,..-..-1730,17-10-1716,10,,Bedee,,'',True,,,-1,-1
+140,Perrine,DUFFERAN,F,..-..-1652,04-11-1737,12-07-1687,11,Bedee,Bedee,Bedee,'',True,,,-1,-1
+141,Julien,RONSIN,M,02-02-1656,24-05-1730,12-07-1687,11,Bedee,Bedee,Bedee,'',True,,,143,142
+142,Julienne,RADOUBE,F,..-..-1630,,..-..-1655,12,,,,'',True,,,-1,-1
+143,Julien,RONSIN,M,..-..-1630,,..-..-1655,12,,,,'',True,,,-1,-1
+144,Pierre,VILBOUX,M,06-02-1744,24-02-1789,27-02-1768,8,Clayes,Geveze,Breteil,'',True,,,145,147
+145,Pierre,VILBOUX,M,..-..-1710,09-09-1791,05-07-1740,9,Clayes,Clayes,Clayes,'',True,,,146,-1
+146,Joseph,VILBOUX,M,..-..-1680,..-..-1734,,10,,,,'',True,,,-1,-1
+147,Marguerite,ROUAULT,F,22-01-1719,27-02-1782,05-07-1740,9,Parthenay,Clayes,Cintre,'',True,,,148,149
+148,Jean,ROUAULT,M,..-..-1678,..-..-1739,27-02-1707,10,Parthenay,Parthenay,Parthenay,'',True,,,-1,-1
+149,Julienne,ROUAULT,F,..-..-1678,..-..-1739,27-02-1707,10,Parthenay,Parthenay,Parthenay,'',True,,,-1,-1
+150,Noelle,DELABARRE,F,25-11-1749,15-09-1782,27-02-1768,8,Geveze,Geveze,Breteil,'',True,,,151,152
+151,Mathurin,DELABARRE,M,..-..-1720,13-04-1806,06-11-1748,9,Langouet,Geveze,Geveze,'',True,,,153,154
+152,Julienne,BIET,F,30-01-1729,25-06-1800,06-11-1748,9,Geveze,Geveze,Geveze,'',True,,,159,160
+153,Joseph,DELABARRE,M,14-01-1692,23-11-1773,19-04-1720,10,Langouet,Geveze,Langouet,'',True,,,155,156
+154,Julienne,DAVY,F,04-02-1695,..-..-1727,19-04-1720,10,Geveze,Geveze,,'',True,,,157,158
+155,Pierre,DELABARRE,M,..-..-1666,,31-01-1691,11,Langouet,Langouet,,'',True,,,-1,-1
+156,Marguerite,SEVEGRAND,F,..-..-1672,,31-01-1691,11,,Langouet,,'',True,,,168,165
+157,Mathurin,DAVY,M,10-09-1658,10-03-1695,19-04-1681,11,Geveze,Geveze,Geveze,'',True,,,177,178
+158,Perrine,LEFEUVRE,F,02-03-1661,15-03-1696,19-04-1681,11,Geveze,Geveze,Geveze,'',True,,,197,200
+159,Jacques,BIET,M,28-04-1687,11-05-1750,28-11-1711,10,Geveze,Geveze,Geveze,'',True,,,161,162
+160,Julienne,CHENARD,F,21-09-1687,14-02-1740,28-11-1711,10,Geveze,Geveze,Geveze,'',True,,,163,164
+161,Gilles,BIET,M,21-09-1640,19-09-1690,29-01-1669,11,Geveze,Parthenay,Geveze,'',True,,,209,212
+162,Charlotte,DUTERTRE,F,22-02-1654,09-02-1696,29-01-1669,11,Romille,Parthenay,Geveze,'',True,,,221,224
+163,Jean,CHENARD,M,06-12-1657,15-02-1726,12-07-1678,11,Geveze,Geveze,Geveze,'',True,,,240,237
+164,Jeanne,DELYS,F,07-02-1647,05-03-1700,12-07-1678,11,Geveze,Geveze,Geveze,'',True,,,256,265
+165,Perrine,QUENOUILLERE,F,..-..-1637,,07-07-1671,12,Saint-Gondran,Saint-Gondran,,'',True,,,166,167
+166,Gerard,QUENOUILLERE,M,..-..-1610,,..-..-1637,13,,,,'',True,,,-1,-1
+167,Francoise,COLLET,F,..-..-1610,,..-..-1637,13,,,,'',True,,,-1,-1
+168,Olivier,SEVEGRAND,M,18-12-1647,,07-07-1671,12,La Chapelle-Chaussée,Saint-Gondran,,'',True,,,169,172
+169,Olivier,SEVEGRAND,M,31-05-1592,26-11-1657,30-10-1632,13,La Chapelle-Chaussee,La Chapelle-Chaussee,La Chapelle-Chaussee,'',True,,,170,171
+170,Jehan,SEVEGRAND,M,..-..-1531,,..-..-1587,14,,,,'',True,,,-1,-1
+171,Jeanne,MENGUY,F,..-..-1562,21-12-1640,..-..-1587,14,,,La Chapelle-Chaussee,'',True,,,-1,-1
+172,Olive,DELAHAYE,F,22-11-1606,01-11-1642,30-10-1632,13,La Chapelle-Chaussee,La Chapelle-Chaussee,La Chapelle-Chaussee,'',True,,,174,173
+173,Francoise,CHAUVIN,F,..-..-1583,27-02-1653,..-..-1608,14,,,La Chapelle-Chaussee,'',True,,,-1,-1
+174,Thomas,DELAHAYE,M,04-08-1580,11-09-1656,..-..-1608,14,La Chapelle-Chaussee,,La Chapelle-Chaussee,'',True,,,175,176
+175,Julien,DELAHAYE,M,..-..-1550,,..-..-1575,15,,,,'',True,,,-1,-1
+176,Jehanne,EREL,F,..-..-1550,,..-..-1575,15,,,,'',True,,,-1,-1
+177,Jean,DAVY,M,28-10-1627,28-02-1674,30-07-1645,12,Geveze,Geveze,Geveze,'',True,,,182,179
+178,Estephe,ROUAULT,F,04-10-1629,19-04-1681,30-07-1645,12,Parthenay,Geveze,Geveze,'',True,,,189,192
+179,Francoise,DELEON,F,05-10-1594,28-02-1647,27-11-1626,13,Langan,Geveze,Geveze,'',True,,,180,181
+180,Francois,DELEON,M,..-..-1568,..-..-1616,..-..-1594,14,,,,'',True,,,-1,-1
+181,Gennevieve,LE TROTOUX,F,..-..-1568,..-..-1616,..-..-1594,14,,,,'',True,,,-1,-1
+182,Olivier,DAVY,M,19-08-1599,25-10-1654,27-11-1626,13,Geveze,Geveze,Geveze,'',True,,,183,184
+183,Olivier,DAVY,M,29-11-1566,15-12-1640,..-..-1596,14,Geveze,,Geveze,'',True,,,185,186
+184,Guillemette,LEQUENOUILLERE,F,18-02-1568,09-09-1630,..-..-1596,14,Geveze,,Geveze,'',True,,,187,188
+185,,DAVY,M,,..-..-1564,,15,,,Geveze,'',True,,,-1,-1
+186,Guillemette,CHAUVIN,F,,..-..-1564,,15,,,Geveze,'',True,,,-1,-1
+187,Pierre,LEQUENOUILLERE,M,..-..-1543,..-..-1583,..-..-1568,15,,,Geveze,'',True,,,-1,-1
+188,Perinne,GEFFROY,F,..-..-1543,,..-..-1568,15,,,,'',True,,,-1,-1
+189,Jean,ROUAULT,M,15-02-1608,19-04-1681,04-10-1625,13,Parthenay,Geveze,Geveze,'',True,,,190,191
+190,Guillaume,ROUAULT,M,..-..-1580,..-..-1627,..-..-1606,14,,,Geveze,'',True,,,-1,-1
+191,Jeanne,GUERINAIS,F,..-..-1580,10-07-1645,..-..-1606,14,,,Geveze,'',True,,,-1,-1
+192,Guillemette,BIET,F,12-11-1603,30-01-1630,04-10-1625,13,Geveze,Geveze,Geveze,'',True,,,714,193
+193,Gilette,BRETEL,F,..-..-1570,26-04-1622,..-..-1601,14,,,Geveze,'',True,,,-1,-1
+194,Gilles,BIET,M,17-09-1579,06-05-1653,..-..-1601,14,Geveze,,Geveze,'',True,,,712,713
+195,Bonabes,BIET,M,..-..-1546,24-05-1619,..-..-1574,15,Geveze,,Geveze,'',True,,,709,211
+196,Laurence,CHAUVIN,F,..-..-1556,17-09-1579,..-..-1574,15,,,Geveze,'',True,,,-1,-1
+197,Jacques,LEFEUVRE,M,20-01-1627,28-07-1660,25-06-1658,12,Geveze,Geveze,Geveze,'',True,,,198,199
+198,Julien,LEFEUVRE,M,..-..-1598,,31-10-1623,13,,Geveze,,'',True,,,-1,-1
+199,Helene,FOUREL,F,..-..-1698,,31-10-1623,13,,Geveze,,'',True,,,-1,-1
+200,Justine,BIET,F,11-03-1638,22-01-1687,25-06-1658,12,Geveze,Geveze,Geveze,'',True,,,204,201
+201,Jeanne,DUPONT,F,22-04-1599,22-12-1670,29-01-1628,13,Geveze,Geveze,Geveze,'',True,,,203,202
+202,Perrine,JOSSES,F,,,,14,,,,'',True,,,-1,-1
+203,Georges,DUPONT,M,,,,14,,,,'',True,,,-1,-1
+204,Pierre,BIET,M,30-06-1598,14-11-1636,29-01-1628,13,Geveze,Geveze,Geveze,'',True,,,206,205
+205,Perrine,YGER,F,..-..-1582,14-11-1636,..-..-1598,14,Geveze,,Geveze,'',True,,,-1,-1
+206,Bonnabes,BIET,M,24-03-1575,10-08-1623,..-..-1598,14,Geveze,,Geveze,'',True,,,207,208
+207,Pierre,BIET,M,07-12-1531,13-09-1612,..-..-1568,15,Geveze,,Geveze,'',True,,,-1,-1
+208,Jeanne,GUIHARD,F,..-..-1540,13-01-1625,..-..-1568,15,Geveze,,Geveze,'',True,,,-1,-1
+209,Gilles,BIET,M,10-12-1609,03-08-1668,01-12-1629,12,Geveze,Geveze,Geveze,'',True,,,194,715
+210,Jean,BIET,M,..-..-1530,,,16,,,,'',True,,,-1,-1
+211,Perinne,VAULEON,F,..-..-1522,..-..-1560,,16,,,,'',True,,,-1,-1
+212,Perrine,BIET,F,18-01-1610,02-02-1653,01-12-1629,12,Geveze,Geveze,Geveze,'',True,,,213,214
+213,Marc,BIET,M,12-12-1578,04-11-1627,..-..-1602,13,Geveze,Geveze,Geveze,'',True,,,215,216
+214,Julienne,DE SAINT-JEAN,F,..-..-1588,30-12-1622,..-..-1602,13,Geveze,Geveze,Geveze,'',True,,,218,217
+215,Guillaume,BIET,M,17-08-1555,25-03-1609,..-..-1578,14,Geveze,,Geveze,'',True,,,708,711
+216,Guillemette,MONNIER,F,..-..-1560,..-..-1578,..-..-1578,14,,,Geveze,'',True,,,-1,-1
+217,Gilette,LARDOUX,F,,,..-..-1577,14,,,,'',True,,,-1,-1
+218,Pierre,DE SAINT-JEAN,M,30-08-1559,20-04-1639,..-..-1577,14,Geveze,,Geveze,'',True,,,219,220
+219,Alain,DE SAINT-JEAN,M,,,08-09-1557,15,,Geveze,,'',True,,,-1,-1
+220,Perrine,BIET,F,17-11-1528,..-..-1590,08-09-1557,15,Geveze,Geveze,,'',True,,,-1,-1
+221,Gilles,DUTERTRE,M,26-06-1617,20-01-1659,27-07-1645,12,Parthenay,Parthenay,Romille,'',True,,,222,223
+222,Gilles,DUTERTRE,M,..-..-1585,..-..-1651,..-..-1608,13,,,,'',True,,,-1,-1
+223,Jeanne,GOUESTARD,F,..-..-1585,..-..-1651,..-..-1608,13,,,,'',True,,,-1,-1
+224,Perrine,PIVAN,F,10-02-1622,..-..-1699,27-07-1645,12,Geveze,Parthenay,,'',True,,,225,232
+225,Olivier,PIVAN,M,29-09-1584,26-04-1642,..-..-1610,13,Geveze,,Geveze,'',True,,,226,229
+226,Jean,PIVAN,M,..-..-1550,,..-..-1575,14,,,,'',True,,,227,228
+227,Guillaume,PIVAN,M,,..-..-1565,..-..-1535,15,,,,'',True,,,-1,-1
+228,Jeanne,RUE,F,..-..-1510,..-..-1566,..-..-1535,15,,,,'',True,,,-1,-1
+229,Sebastienne,PRIOUL,F,22-06-1557,..-..-1584,..-..-1575,14,Geveze,,,'',True,,,230,231
+230,Pierre,PRIOUL,M,..-..-1530,,..-..-1557,15,,,,'',True,,,-1,-1
+231,Roulette,LEFEUVRE,F,..-..-1530,,..-..-1557,15,,,,'',True,,,-1,-1
+232,Julienne,DENIEUL,F,23-10-1586,04-10-1662,..-..-1610,13,Geveze,,Geveze,'',True,,,234,233
+233,Gilette,SYMON,F,..-..-1570,,..-..-1586,14,,,,'',True,,,-1,-1
+234,Andre,DENIEUL,M,08-02-1552,30-12-1616,..-..-1586,14,Geveze,,Geveze,'',True,,,235,236
+235,Jean,DENIEUL,M,..-..-1526,,..-..-1551,15,,,,'',True,,,-1,-1
+236,Perrine,BOUTIER,F,..-..-1526,,..-..-1551,15,,,,'',True,,,-1,-1
+237,Francoise,BEDEL,F,..-..-1621,07-11-1679,23-01-1646,12,Geveze,Geveze,Geveze,'',True,,,238,239
+238,,BEDEL,M,..-..-1595,..-..-1646,..-..-1621,13,,,,'',True,,,-1,-1
+239,Gilette,JUDIER,F,..-..-1595,27-10-1667,..-..-1621,13,,,Geveze,'',True,,,-1,-1
+240,Olivier,CHENARD,M,..-..-1621,27-12-1663,23-01-1646,12,Geveze,Geveze,Geveze,'',True,,,241,242
+241,Olivier,CHENARD,M,12-04-1598,..-..-1664,06-06-1618,13,Geveze,Vignoc,Geveze,'',True,,,243,244
+242,Gilette,COURTIN,F,11-07-1599,13-06-1634,06-06-1618,13,Vignoc,Vignoc,Geveze,'',True,,,249,250
+243,Jean,CHENARD,M,..-..-1570,,..-..-1598,14,,,,'',True,,,-1,-1
+244,Helene,TRICAULT,F,11-03-1562,28-10-1621,..-..-1598,14,Geveze,,Geveze,'',True,,,245,246
+245,Olivier,TRICAULT,M,..-..-1530,,..-..-1555,15,,,,'',True,,,-1,-1
+246,Marie,MAUVY,F,..-..-1530,..-..-1573,..-..-1555,15,,,,'',True,,,247,248
+247,Guillaume,MAUVY,M,..-..-1512,..-..-1563,..-..-1537,16,,,,'',True,,,-1,-1
+248,Jeanne,COUXU,F,..-..-1512,,..-..-1537,16,,,,'',True,,,-1,-1
+249,Julien,COURTIN,M,..-..-1563,19-02-1645,..-..-1583,14,Vignoc,,Geveze,'',True,,,-1,-1
+250,Renee,ANDRE,F,24-05-1564,05-04-1616,..-..-1583,14,Geveze,,Geveze,'',True,,,251,252
+251,Julien,ANDRE,M,..-..-1532,,..-..-1558,15,Geveze,,,'',True,,,-1,-1
+252,Roberte,BIET,F,25-02-1540,,..-..-1558,15,Geveze,,,'',True,,,254,253
+253,Renee Reginalde,DELEFAY,F,..-..-1505,..-..-1546,..-..-1521,16,,,,'',True,,,-1,-1
+254,Guillaume Sieur Du Coudrais,BIET,M,..-..-1505,..-..-1540,..-..-1521,16,,,,'',True,,,255,-1
+255,Bonabes,BIET,M,..-..-1475,..-..-1530,,17,,,,'',True,,,-1,-1
+256,Claude,DELYS,M,23-04-1618,08-12-1657,,12,Geveze,Geveze,Geveze,'',True,,,257,260
+257,Geffroy,DELYS,M,11-09-1581,08-01-1648,26-05-1611,13,Geveze,Geveze,Geveze,'',True,,,258,259
+258,Julien,DELYS,M,..-..-1551,22-09-1616,..-..-1572,14,,,Geveze,'',True,,,-1,-1
+259,Charlotte,DAVY,F,..-..-1551,02-08-1625,..-..-1572,14,,,Geveze,'',True,,,-1,-1
+260,Georgine,FOUGERAY,F,22-05-1591,23-08-1656,26-05-1611,13,Geveze,Geveze,Geveze,'',True,,,261,262
+261,Claude,FOUGERAY,M,..-..-1567,23-05-1619,..-..-1591,14,,,Geveze,'',True,,,-1,-1
+262,Jeanne,LEFEUVRE,F,18-04-1570,08-02-1628,..-..-1591,14,Geveze,,Geveze,'',True,,,263,264
+263,Guillaume,LEFEUVRE,M,..-..-1541,,..-..-1567,15,,,,'',True,,,-1,-1
+264,Gilette,PERRAULT,F,..-..-1541,..-..-1579,..-..-1567,15,Geveze,,,'',True,,,-1,-1
+265,Julienne,DENAIS,F,12-01-1621,07-05-1659,,12,Geveze,Geveze,Geveze,'',True,,,266,269
+266,Robert,DENAIS,M,03-05-1588,14-03-1661,07-09-1617,13,Geveze,Geveze,Geveze,'',True,,,267,268
+267,Guillaume,DENAIS,M,..-..-1560,12-01-1635,..-..-1588,14,,,Geveze,'',True,,,-1,-1
+268,Roulette,DENAIS,F,..-..-1560,,..-..-1588,14,,,,'',True,,,-1,-1
+269,Julienne,ROULLE,F,02-01-1594,10-10-1683,07-09-1617,13,Geveze,Geveze,Geveze,'',True,,,270,273
+270,Mace,ROULLE,M,25-01-1556,17-11-1636,..-..-1587,14,Geveze,,Geveze,'',True,,,271,272
+271,Jean,ROULLE,M,..-..-1525,,,15,,,,'',True,,,-1,-1
+272,Jeanne,MASSOT,F,..-..-1525,,,15,,,,'',True,,,-1,-1
+273,Guillemette,DENAYS,F,03-01-1572,18-01-1630,..-..-1587,14,Geveze,,Geveze,'',True,,,274,275
+274,Bonnabe,DENAYS,M,20-11-1537,,,15,Geveze,,,'',True,,,-1,-1
+275,Bonne,MERIYAIS,F,16-09-1531,,,15,Geveze,,,'',True,,,-1,-1
+276,Joseph,DAUVERGNE,M,20-01-1709,18-03-1856,06-02-1741,8,Baulon,Baulon,Baulon,'',True,,,277,278
+277,Julien,DAUVERGNE,M,..-..-1675,,21-07-1700,9,Baulon,Baulon,Baulon,'',True,,,-1,-1
+278,Jeanne,HERROUET,F,..-..-1675,..-..-1768,21-07-1700,9,Baulon,Baulon,Baulon,'',True,,,280,279
+279,Jeanne,LECROCQ,F,..-..-1655,,,10,,,,'',True,,,-1,-1
+280,Jean,HERROUET,M,..-..-1652,,,10,,,,'',True,,,281,-1
+281,Robert,HERROUET,M,..-..-1620,,,11,,,,'',True,,,-1,-1
+282,Perinne,GENTIL,F,07-09-1721,,06-02-1741,8,Baulon,Baulon,Baulon,'',True,,,284,283
+283,Francoise,BEBIN,F,..-.-1695,16-07-1724,26-10-1713,9,Saint-Thurial,Saint-Thurial,Baulon,'',True,,,-1,-1
+284,Jean,GENTIL,M,..-..-1683,..-..-1741,26-10-1713,9,Baulon,Saint-Thurial,Baulon,'',True,,,285,286
+285,Pierre,GENTIL,M,..-..-1639,05-10-1721,20-10-1678,10,Baulon,Baulon,Baulon,'',True,,,287,288
+286,Julienne,DUTAY,F,20-03-1655,28-05-1683,20-10-1678,10,Baulon,Baulon,Baulon,'',True,,,289,290
+287,Jean,GENTIL,M,..-..-1604,29-04-1667,..-..-1637,11,,,Baulon,'',True,,,-1,-1
+288,Jeanne,DENIER,F,..-..-1615,15-04-1680,..-..-1637,11,Baulon,,Baulon,'',True,,,-1,-1
+289,Jan,DUTAY,M,..-..-1620,..-03-1682,..-..-1653,11,Baulon,Baulon,Baulon,'',True,,,-1,-1
+290,Gabrielle,SALMON,F,..-..-1628,,..-..-1653,11,Baulon,Baulon,,'',True,,,-1,-1
+291,Marie,GODET,F,31-01-1738,26-01-1767,16-02-1762,8,Breal-sous-Montfort,Breal-sous-Montfort,Breal-sous-Montfort,'',True,,,296,293
+292,Jean,FOUCAUT,M,15-02-1731,08-06-1790,16-02-1762,8,Mordelles,Breal-sous-Montfort,Breal-sous-Montfort,'',True,,,304,301
+293,Marie,JOSSE,F,15-08-1706,21-02-1774,26-10-1734,9,Breal-sous-Montfort,Breal-sous-Montfort,Breal-sous-Montfort,'',True,,,294,295
+294,Paul,JOSSE,M,,,,10,,,,'',True,,,-1,-1
+295,Armelle,LANCON,F,,,,10,,,,'',True,,,-1,-1
+296,Joseph,GODET,M,19-04-1707,04-08-1781,26-10-1734,9,Saint-Thurial,Breal-sous-Montfort,Breal-sous-Montfort,'',True,,,297,298
+297,Pierre,GODET,M,..-..-1781,,19-02-1703,10,Breal-sous-Montfort,Saint-Thurial,,'',True,,,-1,-1
+298,Guillemette,RENAUDIN,F,..-..-1678,,19-02-1703,10,Saint-Thurial,Saint-Thurial,,'',True,,,299,300
+299,Noel,RENAUDIN,M,..-..-1650,,..-..-1678,11,,,,'',True,,,-1,-1
+300,Jacquemine,ROLLAND,F,..-..-1650,,..-..-1678,11,,,,'',True,,,-1,-1
+301,Marie,DRUEL,F,18-03-1695,04-05-1740,30-10-1726,9,L'Hermitage,Mordelles,Talensac,'',True,,,302,303
+302,Armel,DRUEL,M,..-..-1652,,26-07-1678,10,L'Hermitage,L'Hermitage,,'',True,,,-1,-1
+303,Ollive,CHAUSSEBLANCHE,F,..-..-1652,,26-07-1678,10,L'Hermitage,L'Hermitage,,'',True,,,-1,-1
+304,Francois,FOUCAULT,M,07-04-1704,15-03-1771,30-10-1726,9,Chavagne,Mordelles,Talensac,'',True,,,305,306
+305,Francois,FOUCAULT,M,..-.-1647,14-09-1707,29-11-1698,10,,Vezin-le-Coquet,Chavagne,'',True,,,-1,-1
+306,Suzanne,ROBERT,F,..-..-1673,,29-11-1698,10,Vezin-le-Coquet,Vezin-le-Coquet,,'',True,,,307,308
+307,Francois,ROBERT,M,..-..-1650,,..-..-1673,11,,,,'',True,,,-1,-1
+308,Perrine,JOUFFART,F,..-..-1650,,..-..-1673,11,,,,'',True,,,-1,-1
+309,Jacques,JEHANNIN,M,26-04-1748,30-04-1784,24-10-1769,8,Breal-sous-Montfort,Mordelles,Guichen,'',True,,,311,312
+310,Anne,ROUESNE,F,24-05-1754,,24-10-1769,8,Mordelles,Mordelles,,'',True,,,323,324
+311,Jacques,JEHANNIN,M,14-01-1714,31-03-1779,23-02-1740,9,Breal-sous-Montfort,Breal-sous-Montfort,Breal-sous-Montfort,'',True,,,313,314
+312,Josephe,BERTHELOT,F,12-05-1715,07-11-1782,23-02-1740,9,Breal-sous-Montfort,Breal-sous-Montfort,Breal-sous-Montfort,'',True,,,317,318
+313,Pierre,JEHANNIN,M,..-..-1665,07-09-1721,02-12-1690,10,Breal-sous-Montfort,Breal-sous-Montfort,Breal-sous-Montfort,'',True,,,-1,-1
+314,Michele,NICOLAS,F,16-12-1673,28-03-1736,02-12-1690,10,Breal-sous-Montfort,Breal-sous-Montfort,Breal-sous-Montfort,'',True,,,315,316
+315,Julien,NICOLAS,M,..-..-1648,..-..-1669,.-..-1673,11,,,,'',True,,,-1,-1
+316,Renee,HIREL,F,..-..-1653,31-03-1698,..-..-1673,11,Breal-sous-Montfort,,Breal-sous-Montfort,'',True,,,-1,-1
+317,Jean Baptiste,BERTHELOT,M,29-08-1690,11-10-1747,31-07-1710,10,Breal-sous-Montfort,Breal-sous-Montfort,Breal-sous-Montfort,'',True,,,319,320
+318,Gilette,GODET,F,24-04-1694,14-11-1774,31-07-1710,10,Breal-sous-Montfort,Breal-sous-Montfort,Breal-sous-Montfort,'',True,,,321,322
+319,Guillaume,BERTHELOT,M,06-07-1648,24-03-1719,13-02-1677,11,Le Verger,Breal-sous-Montfort,Breal-sous-Montfort,'',True,,,333,334
+320,Perrine,CHESNEL,F,08-12-1642,24-03-1719,13-02-1677,11,Le Verger,Breal-sous-Montfort,Breal-sous-Montfort,'',True,,,339,342
+321,Pierre,GODET,M,25-07-1660,04-01-1710,13-07-1683,11,Breal-sous-Montfort,Breal-sous-Montfort,Breal-sous-Montfort,'',True,,,348,347
+322,Marie,PORTHEU,F,..-..-1658,02-12-1745,13-07-1683,11,Breal-sous-Montfort,Breal-sous-Montfort,Breal-sous-Montfort,'',True,,,352,351
+323,Noel,ROUESNE,M,24-12-1725,27-03-1766,06-02-1746,9,Mordelles,Mordelles,Mordelles,'',True,,,325,326
+324,Perrine,FAVRAIS,F,12-02-1724,17-10-1773,06-02-1746,9,Mordelles,Mordelles,Breal-sous-Montfort,'',True,,,329,330
+325,Francois,ROUESNE,M,..-..-1689,29-04-1743,..-..-1713,10,,,Mordelles,'',True,,,-1,-1
+326,Gilette,VILLENEUVE,F,03-04-1688,24-03-1740,..-..-1713,10,Mordelles,,Mordelles,'',True,,,327,328
+327,Raoul,VILLENEUVE,M,04-06-1660,13-04-1738,..-..-1686,11,Mordelles,,Mordelles,'',True,,,-1,355
+328,Perrine,LOHEAC,F,..-..-1665,13-12-1719,..-..-1686,11,,,Mordelles,'',True,,,-1,-1
+329,Bertrand,FAVRAIS,M,..-..-1698,22-10-1761,..-..-1724,10,,Mordelles,Mordelles,'',True,,,-1,-1
+330,Anne,MERRE,F,19-04-1693,08-01-1765,..-..-1724,10,Mordelles,Mordelles,Mordelles,'',True,,,331,332
+331,Julien,MERRE,M,..-..-1665,..-..-1723,..-..-1690,11,,,,'',True,,,358,359
+332,Anne,JULIEN,F,..-..-1670,26-06-1730,..-..-1690,11,,,Mordelles,'',True,,,-1,-1
+333,Jean,BERTHELOT,M,..-..-1620,,..-..-1645,12,Talensac,,,'',True,,,-1,-1
+334,Jeanne,GREGOIRE,F,12-05-1619,,..-..-1645,12,Talensac,,,'',True,,,336,335
+335,Perrine,MARGOT,F,..-..-1592,,..-..-1619,13,Talensac,,,'',True,,,-1,-1
+336,Olivier,GREGOIRE,M,13-11-1592,,..-..-1619,13,Talensac,,,'',True,,,337,338
+337,Noel,GREGOIRE,M,..-..-1565,,..-..-1590,14,Talensac,,,'',True,,,-1,-1
+338,Perrine,DESBORDES,F,..-..-1565,,..-..-1590,14,Talensac,,,'',True,,,-1,-1
+339,Jean,CHESNEL,M,17-05-1619,,..-..-1645,12,Breal-sous-Montfort,,Breal-sous-Montfort,'',True,,,340,341
+340,Guillaume,CHESNEL,M,..-..-1590,,..-..-1619,13,,,,'',True,,,-1,-1
+341,Olive,DAVY/DANY,F,..-..-1590,,..-..-1619,13,,,,'',True,,,-1,-1
+342,Ollive,REHAULT,F,30-03-1624,,..-..-1645,12,Breal-sous-Montfort,,,'',True,,,344,343
+343,Nicole,RUAULT,F,..-..-1600,,..-..-1623,13,,,,'',True,,,-1,-1
+344,Jacques,REHAULT,M,..-..-1600,,..-..-1623,13,,,,'',True,,,346,345
+345,Ollive,DANY,F,..-..-1570,,,14,,,,'',True,,,-1,-1
+346,Guillaume,REHAULT,M,..-..-1570,,,14,,,,'',True,,,-1,-1
+347,Jeanne,JULIEN,F,,,,12,,,,'',True,,,-1,-1
+348,Guillaume,GODET,M,,,,12,,,,'',True,,,349,350
+349,Guillaume,GODET,M,..-..-1589,27-09-1669,..-..-1620,13,Breal-sous-Montfort,Breal-sous-Montfort,Breal-sous-Montfort,'',True,,,-1,-1
+350,Julienne,LEFEBURE,F,..-..-1600,17-06-1713,..-..-1620,13,,Breal-sous-Montfort,Breal-sous-Montfort,'',True,,,-1,-1
+351,Guillemette,HALOCHE,F,..-..-1630,28-06-1671,..-..-1657,12,Breal-sous-Montfort,,Breal-sous-Montfort,'',True,,,-1,-1
+352,Gilles,PORTHEU,M,12-08-1620,27-06-1699,..-..-1657,12,Breal-sous-Montfort,,Breal-sous-Montfort,'',True,,,353,354
+353,Pierre,PORTHEU,M,..-..-1590,12-12-1671,..-..-1620,13,,,Breal-sous-Montfort,'',True,,,-1,-1
+354,Simone,POMMIER,F,..-..-1590,,..-..-1620,13,,,,'',True,,,-1,-1
+355,Jeanne,HINDRE,F,29-12-1617,,08-09-1654,12,Mordelles,Mordelles,,'',True,,,356,357
+356,Guillaume,HINDRE,M,..-..-1580,,20-01-1615,13,,Mordelles,,'',True,,,-1,-1
+357,Bertranne,LOUESSARD,F,..-..-1580,,20-01-1615,13,,Mordelles,,'',True,,,-1,-1
+358,Toussaint,MERRE,M,..-..-1625,..-..-1678,..-..-1650,12,,,,'',True,,,-1,-1
+359,Helene,ROUESNE,F,..-..-1625,..-..-1676,..-..-1650,12,,,,'',True,,,-1,-1
+360,Jean,FAVRAIS,M,03-03-1745,30-09-1815,09-07-1771,8,Breal-sous-Montfort,Breal-sous-Montfort,Breal-sous-Montfort,'',True,,,362,363
+361,Louise,THEZE,F,06-10-1749,24-04-1820,09-07-1771,8,Breal-sous-Montfort,Breal-sous-Montfort,Mordelles,'',True,,,364,365
+362,Jean,FAVRAIS,M,24-03-1715,18-10-1774,01-12-1742,9,Talensac,Breal-sous-Montfort,Breal-sous-Montfort,'',True,,,366,367
+363,Madeleine,DUBREUIL,F,12-11-1716,19-07-1753,01-12-1742,9,Breal-sous-Montfort,Breal-sous-Montfort,Breal-sous-Montfort,'',True,,,372,373
+364,Gilles,THEZE,M,26-08-1721,10-04-1769,30-05-1743,9,Breal-sous-Montfort,Breal-sous-Montfort,Breal-sous-Montfort,'',True,,,378,379
+365,Louise,DAUVERGNE,F,19-10-1722,19-12-1773,30-05-1743,9,Breal-sous-Montfort,Breal-sous-Montfort,Breal-sous-Montfort,'',True,,,382,383
+366,Jean,FAVERAIS,M,05-12-1688,05-03-1757,25-02-1710,10,Breal-sous-Montfort,Talensac,Breal-sous-Montfort,'',True,,,368,369
+367,Anne,GAREL,F,26-07-1692,05-03-1757,25-02-1710,10,Talensac,Talensac,Breal-sous-Montfort,'',True,,,370,371
+368,Jean,FAVRAIS,M,..-..-1660,,07-05-1686,11,Talensac,Talensac,,'',True,,,388,389
+369,Renee,NOUVEL,F,..-..-1664,11-04-1697,07-05-1686,11,Talensac,Talensac,Talensac,'',True,,,-1,-1
+370,Jan,GAREL,M,..-..-1665,21-09-1719,..-..-1691,11,Breal-sous-Montfort,,Breal-sous-Montfort,'',True,,,-1,-1
+371,Laurence,COULOMBEL,F,..-..-1665,25-03-1721,..-..-1691,11,,,Breal-sous-Montfort,'',True,,,-1,-1
+372,Jean,DUBREUIL,M,..-11-1688,29-01-1739,17-07-1710,10,Breal-sous-Montfort,Breal-sous-Montfort,Breal-sous-Montfort,'',True,,,374,375
+373,Jeanne,JEHANNIN,F,..-01-1690,08-01-1757,17-07-1710,10,Breal-sous-Montfort,Breal-sous-Montfort,Breal-sous-Montfort,'',True,,,376,377
+374,Jean,DUBREUIL,M,..-..-1658,,28-06-1683,11,Breal-sous-Montfort,Breal-sous-Montfort,,'',True,,,-1,-1
+375,Guillemette,MOLAY,F,..-..-1658,,28-06-1683,11,Breal-sous-Montfort,Breal-sous-Montfort,,'',True,,,-1,-1
+376,Armel,JEHANNIN,M,..-..-1660,,30-11-1684,11,Breal-sous-Montfort,Breal-sous-Montfort,Breal-sous-Montfort,'',True,,,398,399
+377,Jacquine,LANCON,F,..-..-1663,07-04-1698,30-11-1684,11,Breal-sous-Montfort,Breal-sous-Montfort,Breal-sous-Montfort,'',True,,,400,401
+378,Jean,THEZE,M,..-..-1694,11-11-1722,16-02-1719,10,Breal-sous-Montfort,Breal-sous-Montfort,Breal-sous-Montfort,'',True,,,-1,-1
+379,Jeanne,COLLEU,F,14-09-1702,15-04-1773,16-02-1719,10,Breal-sous-Montfort,Breal-sous-Montfort,Breal-sous-Montfort,'',True,,,380,381
+380,Jean,COLLEU,M,01-06-1684,,16-02-1697,11,Breal-sous-Montfort,Breal-sous-Montfort,Breal-sous-Montfort,'',True,,,402,403
+381,Francoise,THEZE,F,..-..-1672,,16-02-1697,11,Breal-sous-Montfort,Breal-sous-Montfort,,'',True,,,404,405
+382,Louis,DAUVERGNE,M,14-02-1703,20-03-1774,06-11-1721,10,Breal-sous-Montfort,Breal-sous-Montfort,Breal-sous-Montfort,'',True,,,384,385
+383,Judith,TARDIF,F,01-04-1701,03-04-1781,06-11-1721,10,Breal-sous-Montfort,Breal-sous-Montfort,Breal-sous-Montfort,'',True,,,386,387
+384,Jan,DAUVERGNE,M,..-..-1673,10-09-1719,10-07-1698,11,Breal-sous-Montfort,Breal-sous-Montfort,Breal-sous-Montfort,'',True,,,-1,-1
+385,Louise,TOUFFE,F,..-..-1673,,10-07-1698,11,Breal-sous-Montfort,Breal-sous-Montfort,,'',True,,,406,407
+386,Jan,TARDIF,M,..-..-1659,17-03-1728,13-06-1684,11,Breal-sous-Montfort,Breal-sous-Montfort,Breal-sous-Montfort,'',True,,,-1,-1
+387,Marie,JOLIE,F,..-..-1659,10-05-1736,13-06-1684,11,Breal-sous-Montfort,Breal-sous-Montfort,Breal-sous-Montfort,'',True,,,-1,408
+388,Guillaume,FAVRAIS,M,28-10-1624,26-10-1684,20-03-1670,12,Talensac,Talensac,Talensac,'',True,,,390,391
+389,Olline,ELIE,F,..-..-1640,04-04-1695,20-03-1670,12,Talensac,Talensac,Talensac,'',True,,,392,393
+390,Jacques,FAVRAIS,M,..-..-1595,20-04-1658,..-..-1620,13,,,Talensac,'',True,,,-1,-1
+391,Perrine,MOUAZAN,F,..-..-1595,01-04-1657,..-..-1620,13,,,Talensac,'',True,,,-1,-1
+392,Jean,ELIE,M,..-..-1605,,..-..-1635,13,,,,'',True,,,-1,-1
+393,Bertranne,BOUREE,F,15-01-1603,,..-..-1635,13,Monterfil,,,'',True,,,394,395
+394,Jean,BOUREE,M,..-..-1575,,..-..-1600,14,,,,'',True,,,-1,-1
+395,Perrine,EVEN,F,..-..-1575,,..-..-1600,14,,,,'',True,,,-1,-1
+396,Jean,BOUREE,M,..-..-1575,,..-..-1600,12,,,,'',True,,,-1,-1
+397,Perrine,EVEN,F,..-..-1575,,..-..-1600,12,,,,'',True,,,-1,-1
+398,Guillaume,JEHANNIN,M,..-..-1634,11-07-1699,13-11-1659,12,Talensac,Talensac,Breal-sous-Montfort,'',True,,,-1,-1
+399,Jeanne,THEAULT,F,..-..-1634,06-04-1709,13-11-1659,12,Talensac,Talensac,Breal-sous-Montfort,'',True,,,-1,-1
+400,Pierre,LANSON,M,..-..-1637,,20-07-1662,12,Breal-sous-Montfort,Breal-sous-Montfort,,'',True,,,-1,-1
+401,Jeanne,LEMOINE,F,..-..-1637,,20-07-1662,12,Mordelles,Breal-sous-Montfort,,'',True,,,-1,-1
+402,Jan,COLLEU,M,..-..-1657,30-08-1701,15-01-1682,12,,Breal-sous-Montfort,Breal-sous-Montfort,'',True,,,-1,-1
+403,Francoise,JOSSE,F,..-..-1657,,15-01-1682,12,Breal-sous-Montfort,Breal-sous-Montfort,Breal-sous-Montfort,'',True,,,-1,-1
+404,Jan,THEZE,M,..-..-1640,..-..-1713,..-..-1670,12,Breal-sous-Montfort,,Breal-sous-Montfort,'',True,,,-1,-1
+405,Marguerite,ROUXEL,F,..-..-1644,02-12-1713,..-..-1670,12,Breal-sous-Montfort,,Breal-sous-Montfort,'',True,,,-1,-1
+406,Pierre,TOUFFE,M,..-..-1645,,17-05-1671,12,Breal-sous-Montfort,Breal-sous-Montfort,,'',True,,,-1,-1
+407,Philippee,HINDRE,F,..-..-1645,,17-05-1671,12,Breal-sous-Montfort,Breal-sous-Montfort,,'',True,,,-1,-1
+408,Anne,GODET,F,,,,12,,,,'',True,,,-1,-1
+409,Pierre,MENY,M,..-..-1724,29-11-1773,27-11-1749,8,Monterfil,Le Verger,Monterfil,'',True,,,410,411
+410,Jean,MENY,M,..-..-1690,,..-..-1715,9,,,,'',True,,,-1,-1
+411,Anne,MACE,F,..-..-1690,,..-..-1715,9,,,,'',True,,,-1,-1
+412,Guillemette,DANET,F,..-..-1729,24-11-1788,27-11-1749,8,Le Verger,Le Verger,Monterfil,'',True,,,413,414
+413,Pierre,DANET,M,..-..-1688,,15-07-1728,9,Le Verger,Breal-sous-Montfort,,'',True,,,-1,-1
+414,Perinne,DELABBAYE,F,..-..-1703,,15-07-1728,9,Breal-sous-Montfort,Breal-sous-Montfort,,'',True,,,-1,-1
+415,Noel,BASLEE,M,..-..-1741,..-..-1790,17-02-1767,8,Le Verger,Monterfil,,'',True,,,417,419
+416,Marguerite,LE FEUVRE,F,,,17-02-1767,8,Monterfil,Monterfil,,'',True,,,421,422
+417,Pierre,BELLE,M,..-..-1694,..-..-1767,22-11-1719,9,Iffendic,Le Verger,,'',True,,,418,-1
+418,Pierre,BELLE,M,..-..-1670,,,10,,,,'',True,,,-1,-1
+419,Michele,DELALANDE,F,..-..-1694,,22-11-1719,9,Le Verger,Le Verger,,'',True,,,420,-1
+420,Michel,DELALANDE,M,..-..-1670,,,10,,,,'',True,,,-1,-1
+421,Raoul,LE FEUVRE,M,16-03-1705,,27-11-1736,9,Monterfil,Monterfil,,'',True,,,423,424
+422,Marie,MEHAULT,F,16-08-1714,,27-11-1736,9,Monterfil,Monterfil,,'',True,,,429,430
+423,Raoul,LE FEUVRE,M,29-01-1679,,13-01-1703,10,Monterfil,Monterfil,,'',True,,,425,426
+424,Perinne,DELALANDE,F,14-02-1677,07-07-1707,13-01-1703,10,Monterfil,Monterfil,Monterfil,'',True,,,427,428
+425,Jean,LE FEUVRE,M,..-..-1645,,..-..-1679,11,,,,'',True,,,-1,-1
+426,Marie,MORAND,F,..-..-1645,02-09-1720,..-..-1679,11,,,Monterfil,'',True,,,-1,-1
+427,Raoul,DELALANDE,M,..-..-1650,,..-..-1675,11,,,,'',True,,,-1,-1
+428,Helene,MACE,F,..-..-1650,,..-..-1675,11,,,,'',True,,,-1,-1
+429,Raoul,MEHAULT,M,07-02-1683,04-02-1722,30-01-1703,10,Monterfil,Monterfil,Monterfil,'',True,,,431,432
+430,Marie,ROZE,F,17-08-1683,,30-01-1703,10,Monterfil,Monterfil,,'',True,,,433,434
+431,Jean,MEHAULT,M,..-..-1655,..-..-1721,,11,,,,'',True,,,-1,-1
+432,Francoise,JEHANIN,F,..-..-1655,,,11,,,,'',True,,,-1,-1
+433,Joseph,ROZE,M,21-01-1665,,28-11-1682,11,Monterfil,Monterfil,Monterfil,'',True,,,-1,-1
+434,Jeanne,TOUPE,F,05-03-1663,20-04-1710,28-11-1682,11,Monterfil,Monterfil,Monterfil,'',True,,,-1,-1
+435,Francois,BARBEDOR,M,23-10-1751,,29-04-1777,8,Mordelles,Mordelles,,'',True,,,437,438
+436,Angelique,GILLES,F,..-11-1750,,29-04-1777,8,Mordelles,Mordelles,,'',True,,,449,450
+437,Pierre,BARBEDOR,M,..-..-1712,06-10-1754,03-02-1742,9,Mordelles,Mordelles,Mordelles,'',True,,,439,440
+438,Guillemette,MERRE,F,05-08-1721,,03-02-1742,9,Mordelles,Mordelles,,'',True,,,443,444
+439,Andre,BARBEDOR,M,09-03-1666,25-03-1740,..-..-1710,10,Mordelles,,Mordelles,'',True,,,441,442
+440,Guillemette,HINDRE,F,..-..-1670,,..-..-1710,10,,,Mordelles,'',True,,,-1,-1
+441,Pierre,BARBEDOR,M,..-..-1640,,..-..-1666,11,,,,'',True,,,-1,-1
+442,Perinne,HINDRE,F,..-..-1640,,..-..-1666,11,,,,'',True,,,-1,-1
+443,Raoul,MERRE,M,..-..-1664,16-12-1727,13-11-1719,10,Mordelles,Mordelles,Mordelles,'',True,,,445,446
+444,Anne,GARNIER,F,24-12-1683,19-05-1748,13-11-1719,10,Mordelles,Mordelles,Mordelles,'',True,,,447,448
+445,Toussaint,MERRE,M,..-..-1625,..-..-1676,..-..-1650,11,,,,'',True,,,-1,-1
+446,Helene,ROUESNE,F,..-..-1625,..-..-1676,..-..-1650,11,,,,'',True,,,-1,-1
+447,Guillaume,GARNIER,M,..-..-1653,11-11-1688,..-..-1683,11,,,Mordelles,'',True,,,-1,-1
+448,Janne,EVEN,F,,21-03-1687,..-..-1683,11,,,Mordelles,'',True,,,-1,-1
+449,Joseph,GILLES,M,13-06-1725,,25-11-1749,9,Mordelles,Mordelles,,'',True,,,455,456
+450,Anne,ROUESNE,F,20-11-1730,,25-11-1749,9,Mordelles,Mordelles,,'',True,,,451,452
+451,Jan,ROUESNE,M,..-..-1702,,20-07-1727,10,Mordelles,Moigne,,'',True,,,-1,-1
+452,Francoise,HERY,F,..-..-1712,,20-07-1727,10,Moigne,Moigne,,'',True,,,453,454
+453,Briand,HERY,M,..-..-1685,,23-07-1711,11,Moigne,Moigne,,'',True,,,-1,-1
+454,Bertranne,JUMEL,F,..-..-1685,,23-07-1711,11,Chavagne,Moigne,,'',True,,,-1,-1
+455,Noel,GILLES,M,31-08-1684,23-04-1764,..-..-1718,10,Mordelles,,Mordelles,'',True,,,457,458
+456,Anne,NOUVEL,F,..-..-1690,13-04-1770,..-..-1718,10,Mordelles,,Mordelles,'',True,,,459,460
+457,Allain,GILLES,M,..-..-1660,..-..-1710,..-..-1684,11,,,,'',True,,,-1,-1
+458,Renee,ROUXEL,F,..-..-1660,,..-..-1684,11,,,,'',True,,,-1,-1
+459,Pierre,NOUVEL,M,..-..-1665,,..-..-1690,11,,,Mordelles,'',True,,,-1,-1
+460,Anne,HADION,F,..-.-1648,06-01-1722,..-..-1690,11,,,Mordelles,'',True,,,-1,-1
+461,Tanguy Genou,GESVRET,M,30-05-1741,01-11-1806,09-02-1768,8,Monterfil,Monterfil,Monterfil,'',True,,,466,463
+462,Perrine,CLEMENT,F,28-04-1748,08-04-1799,09-02-1768,8,Monterfil,Monterfil,Monterfil,'',True,,,473,474
+463,Marie,MEHAULT,F,..-..-1714,,10-04-1741,9,Monterfil,Monterfil,,'',True,,,464,465
+464,Julien,MEHAULT,M,,,08-08-1698,10,,Treffendel,,'',True,,,-1,-1
+465,Marguerite,SOUFFLET,F,,..-..-1741,08-08-1698,10,,Treffendel,,'',True,,,-1,-1
+466,Charles,GESVRET,M,26-07-1689,,10-04-1741,9,Monterfil,Monterfil,,'',True,,,470,467
+467,Julienne,EVEN,F,..-..-1660,14-09-1730,24-11-1681,10,Monterfil,Monterfil,Monterfil,'',True,,,469,468
+468,Julienne,COLLE,F,,,,11,,,,'',True,,,-1,-1
+469,Julien,EVEN,M,,,,11,,,,'',True,,,-1,-1
+470,Michel,GESVRET,M,23-12-1660,,24-11-1681,10,Monterfil,Monterfil,Monterfil,'',True,,,471,472
+471,Charles,GESVRET,M,..-..-1630,,..-..-1658,11,Monterfil,,,'',True,,,-1,-1
+472,Perinne,BOIVIN,F,..-07-1633,,..-..-1658,11,Monterfil,,,'',True,,,-1,-1
+473,Raoul,CLEMENT,M,27-02-1727,19-01-1779,12-02-1743,9,Monterfil,Monterfil,Monterfil,'',True,,,475,476
+474,Jeanne,RAZET,F,29-09-1719,30-10-1760,12-02-1743,9,Monterfil,Monterfil,Monterfil,'',True,,,481,482
+475,Jean,CLEMENT,M,..-..-1698,,17-04-1723,10,Monterfil,Monterfil,,'',True,,,477,478
+476,Michelle,SOUFFLET,F,..-..-1698,,17-04-1723,10,Monterfil,Monterfil,,'',True,,,479,480
+477,Pierre,CLEMENT,M,,,,11,,,,'',True,,,-1,-1
+478,Michelle,NOGUES,F,,,,11,,,,'',True,,,-1,-1
+479,Mathurin,SOUFFLET,M,02-03-1656,,03-02-1688,11,,Monterfil,,'',True,,,485,484
+480,Raoulette,ORESVE,F,21-03-1666,,03-02-1688,11,Monterfil,Monterfil,,'',True,,,490,491
+481,Jean,RAZET,M,..-..-1692,..-..-1743,04-10-1718,10,Monterfil,Monterfil,Monterfil,'',True,,,-1,-1
+482,Anne,ORAIN,F,..-..-1692,05-11-1755,04-10-1718,10,Monterfil,Monterfil,Monterfil,'',True,,,483,-1
+483,Joseph,ORAIN,M,..-..-1665,27-09-1735,,11,,,Monterfil,'',True,,,-1,-1
+484,Jeanne,CORNILLET,F,..-..-1630,,..-..-1655,12,,,,'',True,,,-1,-1
+485,Pierre,SOUFFLET,M,07-08-1633,..-..-1656,..-..-1655,12,Iffendic,,,'',True,,,487,486
+486,Perinne,REGNIER,F,..-..-1607,,..-..-1632,13,,,,'',True,,,-1,-1
+487,Pierre,SOUFFLET,M,07-03-1605,,..-..-1632,13,Monterfil,,,'',True,,,488,489
+488,Pierre,SOUFFLET,M,..-..-1576,,..-..-1601,14,,,,'',True,,,-1,-1
+489,Guillemette,EVEN,F,..-..-1576,,..-..-1601,14,,,,'',True,,,-1,-1
+490,Julien,ORESVE,M,..-..-1630,,..-..-1665,12,,,,'',True,,,-1,-1
+491,Julienne,VILLENEUVE,F,..-..-1630,,..-..-1665,12,,,,'',True,,,-1,-1
+492,Jean,AUBRY,M,..-..-1755,,18-01-1780,8,Monterfil,Monterfil,,'',True,,,494,495
+493,Marie,DEMEURE,F,..-..-1755,..-..-1809,18-01-1780,8,Iffendic,Monterfil,,'',True,,,501,504
+494,Pierre,AUBRY,M,..-..-1729,,14-02-1746,9,Monterfil,Monterfil,,'',True,,,498,499
+495,Jeanne,SOUFFLET,F,..-..-1720,,14-02-1746,9,Monterfil,Monterfil,,'',True,,,496,497
+496,Joseph,SOUFFLET,M,,..-..-1746,,10,,,,'',True,,,-1,-1
+497,Jeanne,EVAIN,F,,,,10,,,,'',True,,,-1,-1
+498,Joseph,AUBRI,M,..-..-1687,,15-02-1713,10,Iffendic,Plelan-le-Grand,,'',True,,,-1,-1
+499,Julienne,LE COMTE,F,..-..-1693,,15-02-1713,10,Plelan-le-Grand,Plelan-le-Grand,,'',True,,,500,-1
+500,Yves,LE COMTE,M,,,,11,,,,'',True,,,-1,-1
+501,Joseph,DEMEURE,M,..-..-1718,..-..-1780,30-07-1736,9,Iffendic,Iffendic,,'',True,,,502,503
+502,Michel,DEMEURE,M,..-..-1692,..-..-1736,17-06-1717,10,Iffendic,Iffendic,,'',True,,,-1,-1
+503,Marie,ORAIN,F,..-..-1692,,17-06-1717,10,Iffendic,Iffendic,,'',True,,,-1,-1
+504,Marie,FRESNEL,F,..-..-1714,,30-07-1736,9,Iffendic,Iffendic,,'',True,,,505,507
+505,Jean,FRESNEL,M,..-..-1688,,27-06-1713,10,Iffendic,Iffendic,,'',True,,,506,-1
+506,Guillaume,FRESNEL,M,..-..-1643,,,11,,,,'',True,,,-1,-1
+507,Perinne,DUBREIL,F,..-..-1688,,27-06-1713,10,Iffendic,Iffendic,,'',True,,,508,509
+508,,DUBREIL,M,,,,11,,,,'',True,,,-1,-1
+509,Catherine,BOUVIER,F,..-..-1671,,,11,,,,'',True,,,-1,-1
+510,Joseph,ROBERT,M,..-..-1755,..-..-1809,17-11-1789,8,Iffendic,Saint-Malon-sur-Mel,,'',True,,,516,517
+511,Anne,RAFFRAY,F,..-..-1750,..-..-1809,17-11-1789,8,Saint-Malon-sur-Mel,Saint-Malon-sur-Mel,,'',True,,,512,513
+512,Julien,RAFRAY,M,..-..-1724,..-..-1789,20-09-1749,9,Saint-Malon-sur-Mel,Saint-Malon-sur-Mel,,'',True,,,-1,-1
+513,Perinne,JOSSE,F,..-..-1724,,20-09-1749,9,Saint-Malon-sur-Mel,Saint-Malon-sur-Mel,,'',True,,,514,515
+514,Joseph,JOSSE,M,..-..-1695,,04-06-1720,10,Concoret,Saint-Malo-sur-Mel,,'',True,,,-1,-1
+515,Jeanne,THEODIN,F,..-..-1695,,04-06-1720,10,Saint-Malon-sur-Mel,Saint-Malon-sur-Mel,,'',True,,,-1,-1
+516,Guillaume,ROBERT,M,..-..-1719,..-..-1789,04-02-1744,9,Iffendic,Iffendic,,'',True,,,518,519
+517,Magdelaine,DELALANDE,F,..-..-1719,,04-02-1744,9,Iffendic,Iffendic,,'',True,,,521,520
+518,Jan,ROBERT,M,..-..-1689,,18-05-1706,10,Iffendic,Talensac,,'',True,,,-1,-1
+519,Perrine,DEMAY,F,..-..-1680,,18-05-1706,10,Talensac,Talensac,,'',True,,,-1,-1
+520,Marie,MACE,F,..-..-1685,20-09-1743,13-04-1711,10,Iffendic,Iffendic,Iffendic,'',True,,,-1,-1
+521,Pierre,DELALANDE,M,22-03-1683,26-01-1747,13-04-1711,10,Iffendic,Iffendic,Iffendic,'',True,,,522,523
+522,Robert,DELALANDE,M,..-..-1655,,..-..-1683,11,,,,'',True,,,-1,-1
+523,Roulette,LEMOYNE,F,..-..-1627,,..-..-1683,11,,,Iffendic,'',True,,,-1,-1
+524,Jean,DETOC,M,..-..-1748,14-01-1790,16-02-1773,8,Talensac,Talensac,Breal-sous-Montfort,'',True,,,-1,-1
+525,Anne,FRESNEL,F,..-..-1750,29-10-1780,16-02-1773,8,Talensac,Talensac,Breal-sous-Montfort,'',True,,,530,526
+526,Anne,DUBREIL,F,..-..-1725,,31-01-1747,9,Talensac,Talensac,,'',True,,,527,528
+527,Raoul,DUBREIL,M,..-..-1697,..-..-1747,08-02-1723,10,Talensac,Talensac,,'',True,,,-1,-1
+528,Josephee,SOUFFLET,F,..-..-1697,,08-02-1723,10,Talensac,Talensac,,'',True,,,529,-1
+529,Jan,SOUFFLET,M,..-..-1670,,,11,,,,'',True,,,-1,-1
+530,Mathurin,FRESNEL,M,..-..-1722,,31-01-1747,9,Le Verger,Talensac,,'',True,,,532,531
+531,Anne,NOGUES,F,..-..-1688,..-..-1747,25-02-1713,10,Le Verger,Le Verger,,'',True,,,535,536
+532,Raoul,FRESNEL,M,..-..-1688,,25-02-1713,10,Le Verger,Le Verger,,'',True,,,533,534
+533,Guillaume,FRESNEL,M,..-..-1650,,10-06-1676,11,,Le Verger,,'',True,,,-1,-1
+534,Michelle,BOUGEART,F,..-..-1650,,10-06-1676,11,Le Verger,Le Verger,,'',True,,,-1,-1
+535,Francois,NOGUES,M,17-09-1651,04-05-1701,..-..-1686,11,Le Verger,Le Verger,Le Verger,'',True,,,537,538
+536,Bertranne,EVEN,F,22-08-1660,28-08-1723,..-..-1686,11,Le Verger,Le Verger,Le Verger,'',True,,,539,540
+537,Jean,NOGUES,M,..-..-1625,,..-..-1651,12,,,,'',True,,,-1,-1
+538,Perinne,CHOLLET,F,..-..-1625,,..-..-1651,12,,,,'',True,,,-1,-1
+539,Pierre,EVEN,M,..-..-1637,,16-06-1657,12,,Le Verger,,'',True,,,-1,-1
+540,Roulette,DOUETTEE,F,07-10-1639,22-11-1707,16-06-1657,12,Talensac,Le Verger,Le Verger,'',True,,,541,542
+541,Pierre,DOUETTEE,M,..-..-1612,,,13,,,,'',True,,,-1,-1
+542,Julienne,,F,..-..-1612,,,13,,,,'',True,,,-1,-1
+543,Constant Marie Joseph,LERAY,M,19-05-1889,13-08-1965,24-09-1919,4,Breal-sous-Montfort,Breal-sous-Montfort,Breal-sous-Montfort,'',True,Employé aux tramways,,545,556
+544,Anna Virginie Marie Joseph,BERTHELOT,F,30-11-1894,23-01-1973,24-09-1919,4,Saint-Thurial,Breal-sous-Montfort,Monterfil,'',True,Cultivatrice,,735,736
+545,Joseph,LERAY,M,19-04-1848,11-12-1904,17-11-1878,5,Saint-Thurial,Saint-Thurial,Saint-Thurial,'',True,Cultivateur,Saint-Thurial,555,546
+546,Jeanne Marie,DESTOC,F,10-07-1822,,07-07-1846,6,Saint-Thurial,Saint-Thurial,,'',True,Cultivatrice,Saint-Thurial,547,554
+547,Joseph,DETOC,M,17-06-1773,01-04-1845,19-11-1816,7,Saint-Thurial,Saint-Thurial,Saint-Thurial,'',False,Cultivateur,,553,548
+548,Marie,RENAULT,F,23-08-1740,04-11-1795,10-06-1769,8,Saint-Thurial,Saint-Thurial,Saint-Thurial,'',True,,,549,550
+549,Jan,RENAULT,M,29-09-1700,,30-04-1726,9,Treffendel,Saint-Thurial,,'',True,,,729,57
+550,Julienne,GUILLOUX,F,05-08-1708,05-02-1759,30-04-1726,9,Saint-Thurial,Saint-Thurial,Saint-Thurial,'',False,,,551,552
+551,Pierre,GUILLOUX,M,..-..-1680,,..-..-1708,10,,,Saint-Thurial,'',True,,,-1,-1
+552,Anne,SAULNIER,F,..-..-1680,21-09-1708,..-..-1708,10,,,Saint-Thurial,'',True,,,-1,-1
+553,Joseph,DETOC,M,24-11-1746,04-04-1786,10-06-1769,8,Saint-Thurial,Saint-Thurial,Saint-Thurial,'',False,,,698,684
+554,Perrinne Louise,COTTO,F,20-08-1784,12-12-1835,19-11-1816,7,Saint-Thurial,Saint-Thurial,Saint-Thurial,'',False,Cultivatrice,,563,564
+555,Joseph,LERAY,M,10-12-1815,01-04-1871,07-07-1846,6,Saint-Thurial,Saint-Thurial,Saint-Thurial,"'Premier mariage avec Janne ROBIN décédée le 02-02-1844\nActe de naissance : ""¨"" sur le ""Y""\nActe de mariage : né le 10-10-1815'",True,Cultivateur / Laboureur,Saint-Thurial,557,558
+556,Anne Marie Josephine,PERSEHAIS,F,02-02-1848,28-09-1922,17-11-1878,5,Baulon,Saint-Thurial,Saint-Thurial,'',True,Cultivatrice,,566,565
+557,Francois,LERAY,M,09-05-1780,03-02-1841,09-02-1802,7,Baulon,Saint-Thurial,Saint-Thurial,'laboureur',False,Cultivateur,,559,560
+558,Marie,DANET,F,03-11-1782,05-08-1844,09-02-1802,7,Saint-Thurial,Saint-Thurial,Saint-Thurial,'probablement décédée le 02-02-1844 Janne ROBIN ? dafuq ?',False,Cultivatrice,,561,562
+559,Francois,LEROY,M,..-..-1748,,30-01-1769,8,Baulon,Baulon,Baulon,'',True,,,601,606
+560,Jeanne,GUILLOU,F,03-11-1747,19-10-1804,30-01-1769,8,Baulon,Baulon,Baulon,'',True,,,634,633
+561,Joseph,DANET,M,,16-10-1794,09-10-1781,8,Saint-Thurial,Saint-Thurial,Saint-Thurial,'',True,,,671,673
+562,Jeanne,MEHAULT,F,..-..-1756,,09-10-1781,8,Saint-Thurial,Saint-Thurial,,'',True,,,683,701
+563,Pierre,COTTO,M,07-04-1733,19-03-1801,10-09-1776,8,Saint-Thurial,Saint-Thurial,Saint-Thurial,'',True,,,-1,-1
+564,Jeanne,JUBAULT,F,13-05-1749,06-10-1817,10-09-1776,8,Treffendel,Saint-Thurial,Saint-Thurial,'',True,,,-1,-1
+565,Perrinne,DEMAURE,F,18-07-1820,30-06-1885,16-07-1844,6,Talensac,Mordelles,Saint-Thurial,'',True,Domestique,Mordelles puis Saint-Thurial,567,568
+566,Anne Marie,PERSEHAIS,M,13-07-1815,15-12-1892,16-07-1844,6,Baulon,Mordelles,Baulon,'Acte de décès : Jean Marie',True,Maréchal puis Journalier,Mordelles puis Saint-Thurial puis Baulon,571,572
+567,Mathurin,DEMAURE,M,1778,,09-11-1813,7,,Cintre,,'',True,Laboureur,Cintre,-1,-1
+568,Perinne,EON,F,11-05-1782,01-07-1826,09-11-1813,7,Cintre,Cintre,Cintre,'',False,,Cintre,569,570
+569,Joseph,EON,M,15-02-1759,15-03-1815,25-01-1780,8,Cintre,Cintre,Cintre,'',True,,,-1,-1
+570,Jeanne,ROCHERON,F,05-05-1756,28-11-1822,25-01-1780,8,Cintre,Cintre,Cintre,'',True,,,-1,-1
+571,Joseph,PERCEHAIE,M,1769,22-11-1848,,7,Baulon,Baulon,Baulon,'',False,Laboureur,Baulon,573,574
+572,Jeanne,GUILLOUX,F,1768,12-10-1854,,7,Baulon,Baulon,Baulon,'',False,Laboureuse,Baulon,575,576
+573,Guillaume,PERSEHAI,M,15-12-1734,16-05-1801,28-01-1761,8,Baulon,Baulon,Baulon,'',True,,,-1,-1
+574,Perrine,ROUXEL,F,15-09-1731,16-05-1801,28-01-1761,8,Baulon,Baulon,Baulon,'',True,,,-1,-1
+575,Julien,GUILLOUX,M,..-..-1735,08-01-1802,14-02-1765,8,Guignen,Baulon,Baulon,'',True,,,-1,-1
+576,Jeanne,JOUBEREL,F,..-..-1740,,14-02-1765,8,Baulon,Baulon,Baulon,'',True,,,-1,-1
+577,Robert Auguste Joseph,HANGRAN,M,24-03-1907,13-06-1983,07-06-1930,3,Barentin,Barentin,Caudebec-en-Caux,'',True,Employé de bureau,,579,580
+578,Suzanne Marie,D'HALLUIN,F,24-12-1908,18-03-2001,07-06-1930,3,Tourcoing,Barentin,Caudebec-en-Caux,"""Acte de mariage : erreur dans l'acte de naissance sur le nom D'Halluin qui a été orthographié Dhalluin """,True,Ménagère,,733,734
+579,Jules Joseph,HANGRAN,M,28-05-1873,,16-04-1898,4,Barentin,Barentin,,'',True,Menuisier,Barentin,587,588
+580,Celestine Augustine,PIROUT,F,31-12-1872,19-03-1945,16-04-1898,4,Barentin,Barentin,Barentin,'',True,Blanchisseuse,Barentin,581,582
+581,Pierre Auguste,PIROUT,M,25-05-1850,,13-04-1872,5,Pavilly,Barentin,,'',True,Commerçant,Barentin,583,584
+582,Celestine Elise,VAUTIER,F,25-04-1851,,13-04-1872,5,Barentin,Barentin,,'',True,Dévideuse puis Commerçante,Barentin,585,586
+583,Pierre,PIROUT,M,31-08-1817,,23-05-1847,6,Pavilly,Pavilly,,"'acte de naissance : Pierre\nacte de mariage : ""Joseph"" barré\nacte de mariage enfant : Pierre Joseph'",True,Fileur,Pavilly puis Barentin,805,806
+584,Rosalie Julie,LORIOT,F,10-11-1822,18-07-1854,23-05-1847,6,Limésy,Pavilly,Pavilly,'',True,Dévideuse de filature,Pavilly puis Barentin,807,808
+585,Jean Laurent,VAUTIER,M,20-10-1815,05-07-1861,24-09-1838,6,Duclair,Duclair,Barentin,"""Duclair 1815 : registres de catholicité\northographe : Cejourd'hui \nActe de mariage : né le 20-10-1815\nTable décennale : né le 29-08-1815""",True,Journalier puis Contre maître de filature,Duclair puis Barentin,809,810
+586,Marie Eugénie,VARIN,F,09-08-1817,,24-09-1838,6,Duclair,Duclair,,'Duclair 1817 : registres de catholicité\nActe de mariage : né le 09-08-1817\nTable décennale : né le 18-08-1817',True,Couturière puis Dévideuse puis Ménagère,Duclair puis Barentin,811,812
+587,Jules Ernest,HANGRAN,M,26-10-1851,,02-01-1873,5,Barentin,Barentin,,'',True,Ouvrier menuisier,Barentin,589,590
+588,Philomène Zoé,PAUMIER,F,16-05-1852,,02-01-1873,5,Barentin,Barentin,,'',True,Couturière,Barentin,591,592
+589,Amand Parfait,HANGRAN,M,10-11-1819,,31-05-1841,6,Barentin,Barentin,,'',True,Fileur,Barentin,593,594
+590,Clotilde,DUGAL,F,28-01-1820,,31-05-1841,6,Sainte-Marguerite-sur-Duclair,Barentin,,'',True,Ouvrière de filature puis Ménagère,Barentin,595,596
+591,Joseph,PAUMIER,M,13-03-1814,,26-09-1842,6,Porrentruy,Barentin,,"'né en Suisse\nparents non présents au mariage car habitant en Suisse, acte de consentement\nArchives suisses pas en ligne'",True,Ouvrier menuisier puis Menuisier,Barentin,797,798
+592,Zoe Félicité,MORIN,F,02-03-1822,,26-09-1842,6,Le Houlme,Barentin,,'',True,Ouvrière papetière puis Ménagère,Barentin,799,800
+593,Nicolas Parfait,ANGRAN,M,18-12-1787,,23-09-1815,7,Pavilly,Sierville,,'Mariage 27-09 ?\nouvrier papetier / frère ouvrier papetier aussi : Pierre HANGRAN',False,Ouvrier papetier,Barentin,599,600
+594,Marie Marguerite Sopphie,CARON,F,20-07-1790,,23-09-1815,7,Sierville,Sierville,,'',False,Ménagère,Barentin,631,632
+595,Jean Louis,DUGAL,M,1792,,19-02-1819,7,,Sainte-Marguerite-sur-Duclair,,'habite à Ha .....ville\nHermanville\nHermeville',True,Journalier puis Domestique,,-1,-1
+596,Marie Anne Desirée,THIPHAGNE,F,29-05-1792,21-03-1841,19-02-1819,7,Yainville,Sainte-Marguerite-sur-Duclair,Barentin,'',False,,,597,598
+597,Augustin,THIPHAGNE,M,,,,8,,,,'',True,,,-1,-1
+598,Marie Genevieve,PRUPIN,F,,,,8,,,,'',True,,,-1,-1
+599,Jean Louis,ANGRAN,M,,26-12-1801,,8,,,Goupillieres,'mort agé de 62? ville naissance illisible... environ 1739 / lien décès : https://www.archivesdepartementales76.net/ark:/50278/5e22163c069a0f475087739ab209b799/dao/0/1/idsearch:RECH_d49e4af9f55e2c7bf74b7b21a4250db0?id=https%3A%2F%2Fwww.archivesdepartementales76.net%2Fark%3A%2F50278%2F5e22163c069a0f475087739ab209b799%2Fcanvas%2F0%2F127',True,,,-1,-1
+600,Marie Francoise,CARON,F,,09-08-1792,,8,,,Pavilly,'vient de Le Bocasse / morte à 39 ans naissance 1753 ? / pas de mariage à Bocasse 1770-1787 / lien décès : https://www.archivesdepartementales76.net/ark:/50278/0d75c01a94163f227122785c782281f2/dao/0/1/idsearch:RECH_1603f3bfb79062278b100800e19ffd72?id=https%3A%2F%2Fwww.archivesdepartementales76.net%2Fark%3A%2F50278%2F0d75c01a94163f227122785c782281f2%2Fcanvas%2F0%2F82&vx=977.954&vy=-673.557&vr=0&vz=6.26274',True,,,-1,-1
+601,Pierre,LEROY,M,..-..-1705,..-..-1769,09-02-1728,9,Baulon,Baulon,Baulon,'',True,,,602,603
+602,Jean,LEROY,M,..-..-1662,,21-02-1688,10,Baulon,Treffendel,Baulon,'',True,,,-1,-1
+603,Charlotte,ROBIN,F,18-03-1668,11-11-1728,21-02-1688,10,Treffendel,Treffendel,Baulon,'',True,,,604,605
+604,Jean,ROBIN,M,..-..-1640,05-11-1701,..-..-1663,11,Treffendel,,Treffendel,'',True,,,-1,-1
+605,Perrine,ROLLAND,F,..-..-1616,18-03-1702,..-..-1663,11,Treffendel,,Treffendel,'',True,,,-1,-1
+606,Jeanne,BILLIAIS,F,05-09-1702,..-..-1768,09-02-1728,9,Baulon,Baulon,Baulon,'',True,,,607,608
+607,Vincent,BILLIAIS,M,..-03-1669,12-05-1709,29-12-1693,10,Goven,Baulon,Baulon,'',True,,,611,609
+608,Julienne,AUBAUD,F,15-04-1670,,29-12-1693,10,Baulon,Baulon,,'',True,,,614,615
+609,Julienne,DUTAY,F,..-..-1640,02-02-1698,06-02-1660,11,Goven,Goven,Goven,'',True,,,610,-1
+610,Pierre,DUTAY,M,..-..-1610,,,12,,,,'',True,,,-1,-1
+611,Pierre,BILLIAIS,M,13-05-1642,31-05-1704,06-02-1660,11,Guichen,Goven,Goven,'',True,,,612,613
+612,Pierre,BILLIAIS,M,..-..-1595,..-..-1641,21-04-1623,12,,Goven,Goven,'',True,,,-1,-1
+613,Jeanne,PICOU,F,..-..-1604,,21-04-1623,12,Goven,Goven,,'',True,,,-1,-1
+614,Jean,AUBAUD,M,..-..-1625,30-11-1691,23-09-1650,11,Baulon,Baulon,Baulon,'',True,,,616,617
+615,Guillemette,DUTAY,F,..-..-1628,..-..-1708,23-09-1650,11,Baulon,Baulon,Baulon,'',True,,,618,619
+616,Jean,AUBAUD,M,..-..-1600,22-04-1666,29-12-1625,12,Baulon,Baulon,Baulon,'',True,,,-1,-1
+617,Nicole,CLOTEAUX,F,..-..-1600,09-09-1680,29-12-1625,12,Baulon,Baulon,Baulon,'',True,,,-1,-1
+618,Guillaume,DUTAY,M,..-..-1600,,..-..-1624,12,,,,'',True,,,-1,-1
+619,Jeanne,LEROY,F,..-..-1600,..-..-1651,..-..-1624,12,Baulon,,Baulon,'',True,,,-1,-1
+620,Rosalie,COTTO,F,06-04-1839,,24-09-1865,5,Treffendel,Treffendel,,'mort:\nplelan le grand 1873-1924',True,Cultivatrice puis Ménagère,Treffendel puis Plelan-le-Grand,791,792
+621,Joseph Marie,THOMAS,M,16-10-1829,07-01-1896,24-09-1865,5,Plelan-le-Grand,Treffendel,Plelan-le-Grand,'Premier mariage : Marie Rose Portin décédée à Saint Péran 29-12-1862\n\nNaissance : \nMonterfil 1823-1832 17-10-1829',True,Cultivateur / Laboureur,Saint-Péran puis Plelan-le-Grand,789,790
+622,Jan Marie Julien,BERHAULT,M,23-02-1780,,30-07-1809,6,Treffendel,Treffendel,,'',True,Laboureur puis Tisserand,Treffendel,884,885
+623,Jeanne,RENAULT,F,13-08-1782,04-12-1849,30-07-1809,6,Treffendel,Treffendel,Treffendel,"'Pas sûr de la date de naissance : mil sept cent quatre vingt ""deux""'",True,,Treffendel,886,887
+624,Pierre Marie Joseph,CATHELINE,M,26-08-1872,,20-10-1901,4,Monterfil,Monterfil,,'Remarié le 20-07-1908 à Monterfil avec Renault',True,Cultivateur,,737,738
+625,Marie Francoise,LEFEUVRE,F,24-03-1874,,20-10-1901,4,Monterfil,Monterfil,,'',True,Cultivatrice,,739,740
+626,Joseph,MEREL,M,,,,7,,,,'',True,,Treffendel,-1,-1
+627,Anne,FRESNEL,F,,,,7,,,,'',True,,Treffendel,-1,-1
+628,Joseph,DANET,M,,,,8,,,,'',True,,,-1,-1
+629,Michelle,RAZET,F,,,,8,,,,'',True,,,-1,-1
+630,Joseph,ROUXEL,M,,,,9,,,,'',True,,,-1,-1
+631,Louis,CARON,M,,,,8,,,,'',True,,,-1,-1
+632,Marie Elisabeth,DUBOS,F,,,,8,,,,'',True,,,-1,-1
+633,Guillemette,DANET,F,01-10-1725,..-..-1760,09-02-1747,9,Saint-Thurial,Saint-Thurial,,'',True,,,641,635
+634,Anne,GUILLOU,M,25-11-1727,,09-02-1747,9,Baulon,Saint-Thurial,,'',True,,,648,647
+635,Renee,MEHAULT,F,08-03-1704,,20-11-1723,10,Saint-Thurial,Saint-Thurial,,'',True,,,636,637
+636,Pierre,MEHAULT,M,..-..-1663,23-01-1716,21-11-1693,11,Saint-Thurial,Saint-Thurial,Saint-Thurial,'',True,,,638,-1
+637,Julienne,DESTOC,F,22-12-1677,20-06-1722,21-11-1693,11,Saint-Thurial,Saint-Thurial,Saint-Thurial,'',True,,,639,728
+638,Julien,MEHAULT,M,..-..-1637,,,12,,,,'',True,,,-1,-1
+639,Jacques,DESTOCQ,M,..-..-1643,19-04-1681,26-04-1668,12,Saint-Thurial,Saint-Thurial,Saint-Thurial,'',True,,,661,719
+640,Anne,CHOUAN,F,25-05-1653,..-..-1688,26-04-1668,12,Saint-Thurial,Saint-Thurial,Saint-Thurial,'',True,,,727,726
+641,Jan Francois,DANET,M,10-11-1698,,20-11-1723,10,Maxent,Saint-Thurial,,'',True,,,644,642
+642,Jeanne,COIGNART,F,..-..-1660,,25-10-1678,11,Maxent,Maxent,,'',True,,,643,-1
+643,Jan,COIGNART,M,..-..-1635,,,12,Treffendel,,,'',True,,,-1,-1
+644,Joseph,DANET,M,14-02-1661,,25-10-1678,11,Treffendel,Maxent,Maxent,'',True,,,645,646
+645,Jan,DANET,M,..-..-1630,04-09-1694,..-..-1658,12,,Treffendel,Treffendel,'',True,,,-1,-1
+646,Noelle,GOURET,F,..-..-1635,03-10-1700,..-..-1658,12,Treffendel,Treffendel,Treffendel,'',True,,,-1,-1
+647,Marie,GOVEN,F,..-..-1690,..-.-1758,21-01-1715,10,Baulon,Baulon,Baulon,'',True,,,649,650
+648,Jean,GUILLOU,M,..-..-1690,..-..-1758,21-01-1715,10,Baulon,Baulon,Baulon,'',True,,,651,652
+649,Pierre,GOVEN,M,..-..-1664,..-..-1758,..-..-1690,11,Baulon,,Baulon,'',True,,,-1,-1
+650,Marie,GOLIVET,F,..-..-1663,,..-..-1690,11,Baulon,,Baulon,'',True,,,654,653
+651,Barthelemy,GUILLOU,M,06-10-1662,17-04-1700,21-02-1689,11,Baulon,Baulon,Baulon,'',True,,,658,657
+652,Francoise,DANET,F,23-03-1665,,21-02-1689,11,Baulon,Baulon,Saint-Thurial,'',True,,,656,655
+653,Jeanne,TOURNEDOUET,F,..-..-1630,,28-04-1654,12,Baulon,Baulon,,'',True,,,-1,-1
+654,Mace,GOLIVET,M,..-..-1630,,28-04-1654,12,Baulon,Baulon,,'',True,,,-1,-1
+655,Gilette,ROUXEL,F,..-..-1635,,..-..-1665,12,,,,'',True,,,-1,-1
+656,Nicolas,DANET,M,..-..-1635,,..-..-1665,12,,,,'',True,,,-1,-1
+657,Jeanne,BRULARD,F,..-..-1634,,..-..-1660,12,,,Baulon,'',True,,,-1,-1
+658,Pierre,GUILLOU,M,..-..-1634,,..-..-1660,12,Baulon,,Baulon,'',True,,,659,-1
+659,Jean,GUILLOU,M,..-..-1599,19-07-1679,,13,Baulon,,Baulon,'',True,,,-1,-1
+660,Julienne,BERNARD,F,..-..-1620,06-04-1704,..-..-1643,13,Breal-sous-Montfort,,Breal-sous-Montfort,'',True,,,720,664
+661,Bertrand,DETOC,M,..-..-1624,12-07-1675,..-..-1643,13,Saint-Thurial,,Saint-Thurial,'',True,,,716,662
+662,Marguerite,JOUBAIRE,F,..-..-1585,,..-..-1609,14,,,,'',True,,,-1,-1
+663,Michel,DETOC,M,..-..-1585,,..-..-1609,14,,,,'',True,,,-1,-1
+664,Olive,JALU,F,..-..-1595,..-..-1636,..-..-1620,14,,,,'',True,,,-1,-1
+665,Olivier,BERNARD,M,..-..-1595,..-..-1636,..-..-1620,14,,,,'',True,,,-1,-1
+666,Raoulette,LORYOT,F,..-..-1624,28-01-1679,06-05-1649,13,Saint-Thurial,Saint-Thurial,Saint-Thurial,'',True,,,-1,-1
+667,Jean,CHOUAN,M,..-..-1625,19-05-1675,06-05-1649,13,Saint-Thurial,Saint-Thurial,Saint-Thurial,'',True,,,723,669
+668,Jean,CHOUAN,M,..-..-1600,18-05-1675,..-..-1624,14,,,Saint-Thurial,'',True,,,-1,-1
+669,Perronnelle,JOUET,F,..-.-1595,,..-..-1624,14,,,,'',True,,,724,-1
+670,Guillaume,JOUET,M,..-..-1570,,,15,,,,'',True,,,-1,-1
+671,Joseph,DANET,M,..-..-1706,,17-07-1747,9,Saint-Thurial,Saint-Thurial,,'',True,,,672,-1
+672,Joseph,DANET,M,,,,10,,,,'',True,,,-1,-1
+673,Simone,JEHANNIN,F,06-07-1723,23-09-1740,17-07-1747,9,Saint-Thurial,Saint-Thurial,Saint-Thurial,'',True,,,674,677
+674,Joseph,JEHANNIN,M,..-..-1680,08-09-1740,15-10-1703,10,,Saint-Thurial,Saint-Thurial,'',True,,,675,676
+675,Jean,JEHANNIN,M,..-..-1655,,..-..-1680,11,Saint-Thurial,,,'',True,,,-1,-1
+676,Guillemette,ROBIN,F,..-..-1660,22-11-1742,..-..-1680,11,Baulon,,Baulon,'',True,,,-1,-1
+677,Simone,ROBIN,F,06-11-1680,23-11-1740,15-10-1703,10,Saint-Thurial,Saint-Thurial,Saint-Thurial,'',True,,,678,680
+678,Jean,ROBIN,M,..-..-1650,06-06-1724,25-07-1675,11,Saint-Thurial,Saint-Thurial,Saint-Thurial,'',True,,,679,-1
+679,Jean,ROBIN,M,..-..-1625,,,12,,,,'',True,,,-1,-1
+680,Perinne,BOUVIER,F,..-..-1650,04-06-1703,25-07-1675,11,Saint-Thurial,Saint-Thurial,Saint-Thurial,'',True,,,681,682
+681,Francois,BOUVIER,M,..-..-1620,12-11-1686,..-11-1644,12,Saint-Thurial,Saint-Thurial,Saint-Thurial,'',True,,,-1,-1
+682,Rollande,BOURGEOIS,F,..-..-1620,03-05-1682,..-11-1644,12,Saint-Thurial,Saint-Thurial,Saint-Thurial,'',True,,,-1,-1
+683,Joseph,MEHAULT,M,01-04-1739,..-..-1779,31-01-1763,9,Saint-Thurial,Saint-Thurial,,'',True,,,699,700
+684,Marie,RAZET,F,19-10-1715,29-06-1753,31-01-1763,9,Saint-Thurial,Saint-Thurial,Saint-Thurial,'',True,,,685,690
+685,Joseph,RAZET,M,16-05-1689,..-..-1729,11-02-1709,10,Saint-Thurial,Saint-Thurial,Saint-Thurial,'',True,,,687,686
+686,Francoise,PIVERT,F,..-..-1665,17-07-1689,10-02-1688,11,Saint-Thurial,Saint-Thurial,Saint-Thurial,'',True,,,-1,-1
+687,Guillaume,RAZET,M,..-..-1662,08-04-1720,10-02-1688,11,Saint-Thurial,Saint-Thurial,Saint-Thurial,'',True,,,688,689
+688,Jean,RAZET,M,..-..-1627,15-02-1680,28-11-1652,12,Saint-Thurial,Saint-Thurial,Saint-Thurial,'',True,,,-1,-1
+689,Jeanne,LESECQ,F,..-..-1627,..-..-1683,28-11-1652,12,Monterfil,Saint-Thurial,Saint-Thurial,'',True,,,-1,-1
+690,Michelle,GAUTIER,F,29-09-1688,27-11-1741,11-02-1709,10,Saint-Thurial,Saint-Thurial,Saint-Thurial,'',True,,,691,693
+691,Guillaume,GAUTIER,M,..-..-1660,08-01-1733,26-10-1677,11,Treffendel,Saint-Thurial,Saint-Thurial,'',True,,,692,-1
+692,Guy,GAUTIER,M,..-..-1630,..-..-1694,,12,,,Saint-Thurial,'',True,,,-1,-1
+693,Michelle,PORCHER,F,30-09-1654,23-12-1700,26-10-1677,11,Saint-Thurial,Saint-Thurial,Saint-Thurial,'',True,,,694,695
+694,Jean,PORCHER,M,..-..-1625,..-..-1678,07-07-1650,12,Saint-Thurial,Saint-Thurial,Saint-Thurial,'',True,,,696,-1
+695,Guillemette,COCAUX,F,..-..-1625,,07-07-1650,12,Saint-Thurial,Saint-Thurial,,'',True,,,697,-1
+696,Guillaume,PORCHER,M,..-..-1600,,,13,,,,'',True,,,-1,-1
+697,Guillaume,COCAUX,M,..-..-1600,,,13,,,,'',True,,,-1,-1
+698,Jean,DETOC,M,04-04-1710,,19-02-1746,9,Saint-Thurial,Saint-Thurial,,'',True,,,707,704
+699,Pierre,MEHAULT,M,,,,10,,,,'à faire',True,,,-1,-1
+700,Marie,MOUASAN,F,,,,10,,,,'à faire',True,,,-1,-1
+701,Marie,RAZET,F,,,31-01-1763,9,,Saint-Thurial,,'',True,,,702,703
+702,Jan,RAZET,M,,,,10,,,,'',True,,,-1,-1
+703,Gillette,EVEN,F,,,,10,,,,'',True,,,-1,-1
+704,Janne,ROBIN,F,07-11-1686,,..-..-1710,10,Saint-Thurial,Saint-Thurial,Saint-Thurial,'',True,,,705,706
+705,Jean,ROBIN,M,..-..-1645,04-09-1699,30-07-1668,11,Saint-Thurial,Saint-Thurial,Saint-Thurial,'',True,,,-1,-1
+706,Julienne,PIVERT,F,..-..-1643,..-..-1686,30-07-1668,11,Saint-Thurial,Saint-Thurial,Saint-Thurial,'',True,,,-1,-1
+707,Anthoine,DESTOCQ,M,22-12-1680,15-01-1720,..-..-1710,10,Saint-Thurial,Saint-Thurial,Saint-Thurial,'',True,,,722,640
+708,Jean,BIET,M,..-..-1530,,,16,,,,'',True,,,-1,-1
+709,Jean,BIET,M,..-..-1530,,,16,,,,'',True,,,-1,-1
+710,Perinne,VAULEON,F,..-..-1522,..-..-1560,,16,,,,'',True,,,-1,-1
+711,Perinne,VAULEON,F,..-..-1522,..-..-1560,,16,,,,'',True,,,-1,-1
+712,Bonabes,BIET,M,..-..-1546,24-05-1619,..-..-1574,15,Geveze,,Geveze,'',True,,,210,710
+713,Laurence,CHAUVIN,F,..-..-1556,17-09-1579,..-..-1574,15,,,Geveze,'',True,,,-1,-1
+714,Gilles,BIET,M,17-09-1579,06-05-1653,..-..-1601,14,Geveze,,Geveze,'',True,,,195,196
+715,Gilette,BRETEL,F,..-..-1570,26-04-1622,..-..-1601,14,,,Geveze,'',True,,,-1,-1
+716,Michel,DETOC,M,..-..-1585,,..-..-1609,14,,,,'',True,,,-1,-1
+717,Marguerite,JOUBAIRE,F,..-..-1585,,..-..-1609,14,,,,'',True,,,-1,-1
+718,Bertrand,DETOC,M,..-..-1624,12-07-1675,..-..-1643,13,Saint-Thurial,,Saint-Thurial,'',True,,,663,717
+719,Julienne,BERNARD,F,..-..-1620,06-04-1704,..-..-1643,13,Breal-sous-Montfort,,Breal-sous-Montfort,'',True,,,665,721
+720,Olivier,BERNARD,M,..-..-1595,..-..-1636,..-..-1620,14,,,,'',True,,,-1,-1
+721,Olive,JALU,F,..-..-1595,..-..-1636,..-..-1620,14,,,,'',True,,,-1,-1
+722,Jacques,DESTOCQ,M,..-..-1643,19-04-1681,26-04-1668,12,Saint-Thurial,Saint-Thurial,Saint-Thurial,'',True,,,718,660
+723,Jean,CHOUAN,M,..-..-1600,18-05-1675,..-..-1624,14,,,Saint-Thurial,'',True,,,-1,-1
+724,Guillaume,JOUET,M,..-..-1570,,,15,,,,'',True,,,-1,-1
+725,Perronnelle,JOUET,F,..-.-1595,,..-..-1624,14,,,,'',True,,,670,-1
+726,Raoulette,LORYOT,F,..-..-1624,28-01-1679,06-05-1649,13,Saint-Thurial,Saint-Thurial,Saint-Thurial,'',True,,,-1,-1
+727,Jean,CHOUAN,M,..-..-1625,19-05-1675,06-05-1649,13,Saint-Thurial,Saint-Thurial,Saint-Thurial,'',True,,,668,725
+728,Anne,CHOUAN,F,25-05-1653,..-..-1688,26-04-1668,12,Saint-Thurial,Saint-Thurial,Saint-Thurial,'',True,,,667,666
+729,Jan,RENAULT,M,,,15-07-1694,9,,Treffendel,,'du bouloué à son mariage (1650-1675 ) / Jean RENAULT mort 10-05-1673 (2 ans parents : Guillaume RENAULT et Janne COCARDE) / Jean RENAULT né 02-02-1662 (parents Jan RENAULT du bouloué et Janne ROBIN) soeur morte née 25-10-1659 frère Joseph né 16-09-1655 soeur Janne née 1652 frère Jan RENAULT né 02-02-1662 (parents Jan RENAULT et Janne ROBIN) frère Jan RENAULT 15-05-1651 / Jan RENAULT 02-04-1657 (parents Olivier RENAULT et Olive MARCHAND) soeur Francoise 06-1650 / Jan REGNAULT 10-05-1656 (parents Roul REGNAULT et Anne Jouet) / Jan RENAULT 02-02-1655 (parents Mathurin RENAULT et Julienne) / Jan RENAULT 08-04-1653 (parents Mathurin RENAULT et Julienne) /Jan RENAULT 22-03-1652 (parents Jan RENAULT et Julienne MAREL / Jan RENAULT 20-04-1651 (parents Nazaud et Perinne)',True,,,-1,-1
+730,Guillaume,BELLOUARD,M,..-..-1625,21-07-1675,,11,,,Treffendel,'potentiel mariage en ..-..-1659 / mort à 50 ans',True,,,-1,-1
+731,Janne,ROLAND,F,,,,11,,,,'potentiel mariage en ..-..-1659 / potentielle mort en ..-..-1674 / potentiel naissance en ..-..-1635',True,,,-1,-1
+732,Perrine,BELLOUARD,F,23-05-1674,,15-07-1694,9,Treffendel,Treffendel,,'Perrine BELLOUARD née le 23 mai 1674 (parents Guillaume BELLOUARD et Janne LERAND/LORAND//DURAND/ROLLAND/ROLAND)',True,,,59,60
+733,Benjamin Joseph,D'HALLUIN,M,03-06-1880,,05-08-1905,4,Halluin,Halluin,,'',True,Contre maître puis Directeur de tissage,,749,750
+734,Léontine,GOETHALS,F,14-04-1884,,05-08-1905,4,Halluin,Halluin,,'',True,figurière/piqurière? puis sans profession,,751,752
+735,Jean Marie,BERTHELOT,M,22-02-1870,,22-10-1893,5,Breal-sous-Montfort,Saint-Thurial,,'',True,Cultivateur,Saint-Thurial,793,794
+736,Marie Françoise,MÉNARD,F,13-07-1871,,22-10-1893,5,Saint-Thurial,Saint-Thurial,Breal-sous-Montfort,'',True,Cultivatrice,Saint-Thurial,795,796
+737,Pierre Marie,CATHERINE,M,01-08-1833,,05-07-1857,5,Treffendel,Monterfil,,'Catherinne ?',True,Cultivateur,Treffendel puis Monterfil,781,782
+738,Jeanne Marie,DELALANDE,F,31-12-1836,,05-07-1857,5,Iffendic,Monterfil,Monterfil,'',True,Cultivatrice,Monterfil,783,784
+739,François,LEFEUVRE,M,26-01-1835,16-07-1888,30-12-1861,5,Monterfil,Monterfil,Monterfil,'Manque une page mariages 1861',True,Cultivateur,Monterfil,785,786
+740,Marguerite,DERONT,F,28-09-1844,,30-12-1861,5,Monterfil,Monterfil,,'28-09-1844',True,,,787,788
+741,Guillaume Marie,MARZIN,M,18-11-1828,26-06-1909,,5,Lannion,,Lannion,'Mariage : \n- Lannion 1843-1882\n- Pleumeur-Bodou 1853-1882\n- Ploumilliau 1843-1882',True,Mécanicien,Lannion,773,774
+742,Marie Françoise Yvonne,LE GOAZIOU,F,27-06-1831,23-12-1908,,5,Ploumilliau,,Lannion,'',True,Propriétaire (profession?),Lannion,775,776
+743,Pierre,LE TENSORER,M,31-03-1850,,28-10-1872,5,Lannion,Lannion,,'',True,Tailleur de pierre puis Entrepreneur,Lannion puis Brelevenez,777,778
+744,Marie Françoise,LAGEAT,F,09-04-1849,,28-10-1872,5,Lannion,Lannion,,'',True,Couturière puis Ménagère puis Propriétaire,Lannion,779,780
+745,Thomas,JAN,M,11-09-1827,20-05-1907,,5,Baud,,Quimper,'Mariage (jean):\n- Quimper 1853-1872\n- Châteaulin 1853-1872',True,Employé du chemin de fer puis Retraité de la compagnie de chemin de fer d'Orléans,Châteaulin puis Quimper,765,766
+746,Marie Françoise,LE CORRE,F,30-09-1835,20-08-1919,,5,Melrand,,Quimper,'Mariage : \n- Chateaulin 1853-1872\n- Port Launay 1853-1872\n- Saint-Coulitz 1853-1872\n- Dinéault 1853-1872\n- Cast 1853-1872\n- Quimper 1853-1872\n- Pleyben 1853-1872\n- Lothey 1853-1872\n- Saint Ségal 1853-1872\n- Quéménéven 1853-1872\n- Landrévarzec 1853-1872\n- Baud 1853-1872\n- Melrand 1853-1872\n- Saint Barthélémy 1868-1872',True,Ménagère,Quimper,767,768
+747,Jacques,LIZIAR,M,16-08-1841,20-10-1871,10-09-1870,5,Quimper,Quimper,Quimper,'',True,Maréchal ferrant,Quimper,771,772
+748,Marie Jeanne,ARZUR,F,04-09-1836,,10-09-1870,5,Landunvez,Quimper,,'',True,Journalière puis Marchande de café puis Ménagère,Grenoble puis Quimper,769,770
+749,Henri Joseph,DHALLUIN,M,18-08-1844,,28-05-1877,5,Halluin,Halluin,,'',True,Ourdisseur,Halluin,755,756
+750,Marie Louise,DESCAMPS,F,16-06-1854,,28-05-1877,5,Halluin,Halluin,,'',True,Bobineuse puis Ménagère,Halluin,757,758
+751,Bruno,GOETHALS,M,08-07-1843,,15-04-1879,5,Ruysselède,Halluin,,'',True,Tisserand,Halluin,753,754
+752,Silvie Sophie,DECATOIRE,F,28-04-1841,,15-04-1879,5,Halluin,Halluin,,"""Veuve d'Antoine François Masselin décédé à Halluin le 17-03-1876""",True,Journalière puis Ménagère,Halluin,759,762
+753,Carolus Ludovicus,GOETHALS,M,17-01-1811,,16-06-1839,6,Ruysselède,Ruysselède,,'Né Charles Louis\nActe de mariage de son fils en France : Charles Louis\nPériode difficile en belgique à ce moment',True,Tisserand,Ruysselède puis Halluin,829,830
+754,Maria Theresia,DEMEYERE,F,06-03-1812,25-05-1851,16-06-1839,6,Thielt,Ruysselède,Attre ? (Belgique),"'Née Marie Thérèse de père inconnu\nActe de mariage de son fils en France : Marie Thérèse\nil y a des ""¨"" sur le ""y"" du nom de famille'",True,,,-1,831
+755,Benjamin Joseph,D'HALLUIN,M,10-10-1818,20-05-1868,11-01-1842,6,Halluin,Halluin,Halluin,'',True,Journalier puis Tisserand,Halluin,813,814
+756,Mathilde Rosalie,DELPORTE,F,13-01-1823,,11-01-1842,6,Bousbecque,Halluin,,'né à Bousbecque / Bambecque',True,Journalière puis Ménagère,Halluin,819,822
+757,Désiré Joseph,DESCAMPS,M,26-11-1820,,04-06-1849,6,Halluin,Halluin,,'',True,Tisserand puis Ourdisseur,Halluin,825,826
+758,Justine Joseph,VERQUIN,F,24-08-1823,,04-06-1849,6,Halluin,Halluin,,'',True,Tisserande puis Ménagère,Halluin,827,828
+759,Prospere Joseph,DECATOIRE,M,25-11-1798,06-06-1870,15-02-1841,6,Halluin,Halluin,Halluin,'Né le 5 frimaire An 7\nPremier mariage : Sophie Félicité Coisne \n-un enfant avec elle en 1839\n-décès le 06-07-1839\n\nMariage :\nHalluin 1833-1841',True,Tisserand,Halluin,760,761
+760,Henri Joseph,DECATOIRE,M,,30-02-1827,,7,,,Halluin,'',False,Journalier,Halluin,832,833
+761,Marie Anne,DUMORTIER,F,,17-01-1826,,7,,,Halluin,'',False,,Halluin,834,835
+762,Sophie Sylvie,DUTHOIT,F,01-11-1820,09-12-1846,15-02-1841,6,Halluin,Halluin,Halluin,"'Acte de mariage : \n-""père absent depuis 16 ans""\n-sa mère a ""déclaré et affirmé sous la religion du sergent que son mari est absent depuis 16 ans et qu\'elle ignore le lieu de son dernier domicile ainsi que celui de son décès"" '",True,Bobineuse,Halluin,763,764
+763,César Benjamin,DUTHOIT,M,1795,,,7,,,Halluin,'',True,Tonnelier,,-1,-1
+764,Catherine Rose Joseph,CASIER,F,,,,7,,,Halluin,'',True,Journalière,Halluin,-1,-1
+765,François,JAN,M,28-04-1786,,24-01-1809,6,Baud,Baud,,'',True,Domestique puis Cultivateur,Baud,836,837
+766,Louise,LE BERRE,F,06-02-1790,,24-01-1809,6,Baud,Baud,,'',True,Cultivatrice,Baud,838,839
+767,Henri,LE CORRE,M,16-08-1811,,20-01-1833,6,Melrand,Melrand,,'',True,Tailleur,Melrand,844,845
+768,Louise,RIVALLAN,F,27-04-1803,,20-01-1833,6,Bubry,Melrand,,'Né le 7 Floréal An 11',True,Fille de confiance,Melrand,846,847
+769,Jean,ARZUR,M,31-05-1804,11-12-1876,,6,Plouguerneau,,Quimper,'Né le 12 Prairial An 12\nMariage:\nLandunvez 1823-1836\nLannilis 1823-1842\nQuimper 1823-1842\nPlouguerneau 1823-1842',True,Marin préposé des douanes puis Chaudronnier,Quimper,854,855
+770,Marguerite Françoise,JAFFRE,F,1804-1805,16-01-1866,,6,Lannilis,,Brest,'JAFFRÉ ou JAFFRAI\nnaissance :\nLannilis ans 9-1822',True,Ménagère,Quimper,852,853
+771,Jacques Marie,LIZIARD,M,17-07-1805,03-08-1868,07-04-1830,6,Plomelin,Quimper,Quimper,'Né le 28 Messidor An 13',True,Maréchal ferrant,Quimper,848,849
+772,Anne Jeanne,HÉMON,F,06-07-1810,,07-04-1830,6,Quimper,Quimper,,'',True,Ménagère,Quimper,850,851
+773,Charles,MARZIN,M,1778,,,6,,,,"'Naissance :\nLannion 1776-1778\n\nMariage:\nLannion 1813-1833\n\nMort:\nLannion 1823-1863\nLanion 24-11-1832 ? si oui, né à Lannion meunier \nLannion 03-07-1874 ?'",True,Boulanger,Lannion,-1,-1
+774,Marie,LHÉVÉDER,F,1795,,,6,,,,'Mort:\nLannion 1823-1883\n\nNaissance :\nLannion 1792-an 10',True,Boulangère,Lannion,-1,-1
+775,Allain,LE GOAZIOU,M,19-04-1800,,22-11-1828,6,Ploumilliau,Ploumilliau,,'Né le 29 Germinal An 8 ',True,Cultivateur,Ploumilliau,856,857
+776,Jeanne Ollive,HERVÉ,F,03-12-1799,,22-11-1828,6,Ploumilliau,Ploumilliau,,'Née le 2 Nivose An 8',True,Ménagère,Ploumilliau,858,859
+777,Amand Joseph,LE TENSORER,M,17-07-1825,,,6,Lannion,,,"'Né Amand, le Joseph est apparu après\nMort :\nLannion 1843-1922\nBrélévenez 1843-1922'",True,Maçon,Lannion,862,863
+778,Marie Louise Françoise,LE PIVERT,F,08-12-1824,04-06-1855,,6,Trébeurden,,Lannion,'Mariage:\nTrébeurden 1842-1850\nLannion 1843-1852',True,Lingère puis Couturière,Lannion,860,861
+779,Allain,LAGEAT,M,03-05-1818,,07-09-1840,6,Brélévénez,Lannion,,'',True,Maçon garçon puis Tailleur de pierre,Lannion,864,865
+780,Marie Gabrielle,LE PICHOURON,F,29-10-1821,,07-09-1840,6,Lannion,Lannion,,"""Marie Jeanne dans l'acte de naissance de sa fille""",True,Lingère puis Couturière puis Ménagère,Lannion,866,867
+781,Antoine,CATHELINE,M,24-03-1800,,24-11-1824,6,Treffendel,Treffendel,,'Né le 3 Germinal An 8',True,Cultivateur / Laboureur,Treffendel,868,869
+782,Jeanne,DUBOIS,F,03-02-1798,07-12-1854,24-11-1824,6,Treffendel,Treffendel,Treffendel,'Née le 15 Pluviose An 6',True,Cultivatrice,Treffendel,870,871
+783,François,DELALANDE,M,14-12-1782,,28-09-1835,6,Iffendic,Monterfil,,'Né à Iffendic mais baptisé à Monterfil (probablement plus proche)',True,Cultivateur / Laboureur,Monterfil,872,873
+784,Perrine,ROULOIS,F,21-01-1805,,28-09-1835,6,Iffendic,Monterfil,,'Née le 1er Pluviose An 13',True,Cultivatrice,Iffendic puis Monterfil,874,875
+785,Jan,LEFEUVRE,M,29-03-1796,,27-06-1831,6,Monterfil,Monterfil,,'Né le 9 Germinal An 4',True,Laboureur,Monterfil,876,877
+786,Marie,GEFFROY,F,09-01-1811,,27-06-1831,6,Monterfil,Monterfil,,'',True,Cultivatrice,Monterfil,878,879
+787,Jan Pierre,DERONT,M,18-06-1807,,30-03-1837,6,Monterfil,Monterfil,,'',True,Laboureur,Monterfil,880,881
+788,Louise,RIVIER,F,05-02-1817,,30-03-1837,6,Monterfil,Monterfil,,"""Nom parfois orthographié 'RIVIÈRE'""",True,Cultivatrice,,882,883
+789,Jean Marie,THOMAS,M,19-03-1804,,30-06-1828,6,Plelan-le-Grand,Plelan-le-Grand,,'Né le 28 Ventôse An 12',True,Laboureur,Saint-Peran,890,891
+790,Marie Reine,BAZIN,F,04-04-1806,29-03-1838,30-06-1828,6,Maxent,Plelan-le-Grand,Plelan-le-Grand,'',True,Cultivatrice,Plelan-le-Grand,888,889
+791,Jean,COTTO,M,28-04-1801,,11-02-1823,6,Treffendel,Treffendel,,'Né le 8 Floréal An 9',True,Cultivateur / Laboureur,Treffendel,892,893
+792,Anne,BÉGUINNEL,F,15-06-1802,14-03-1853,11-02-1823,6,Treffendel,Treffendel,Treffendel,"'Née le 26 Prairial An 10\nActe de décès absent du registre, manque une page'",True,,,894,895
+793,Pierre Marie,BERTHELOT,M,17-01-1822,09-10-1889,14-10-1855,6,Breal-sous-Montfort,Breal-sous-Montfort,Saint-Thurial,'',True,Cultivateur / Laboureur,Breal-sous-Montfort,896,897
+794,Marie,HIREL,F,16-07-1829,21-02-1884,14-10-1855,6,Breal-sous-Montfort,Breal-sous-Montfort,Saint-Thurial,'',True,Cultivatrice / Laboureuse,Breal-sous-Montfort puis Saint-Thurial,898,899
+795,Julien Marie,MÉNARD,M,31-01-1819,23-06-1893,,6,,,Saint-Thurial,'Mariage:\nSaint Thurial 1843-1872\nPlelan le grand 1853-1872\n\nNaissance :\nsaint thurial : 1813-1822\n31-01-1819 ?',True,Laboureur,Saint-Thurial,900,901
+796,Anne Marie,RAMEL,F,28-02-1840,06-07-1897,,6,Plelan-le-Grand,,Saint-Thurial,'Mort:\nSaint Thurial 1863-1897',True,Cultivatrice,Saint-Thurial,902,903
+797,Germain,PAUMIER,M,,,,7,,,,'habite en Suisse',True,Menuisier,Porrentruy,-1,-1
+798,Marie Catherine,HERDAT,F,,,,7,,,,'habite en Suisse',True,,,-1,-1
+799,Pierre Charles,MORIN,M,17-12-1794,,09-06-1821,7,Le Houlme,Roumare,,'',False,Charpentier,Le Houlme,801,802
+800,Marie Anne Félicité,LEFEBVRE,F,06-06-1796,,09-06-1821,7,Roumare,Roumare,,'',False,Ménagère,Le Houlme,803,804
+801,Pierre,MORIN,M,,,,8,,,,'',True,Charpentier,,-1,-1
+802,Marie,MELLUS,F,,,,8,,,,'',True,,,-1,-1
+803,Jacques,LEFEBVRE,M,,,,8,,,,'',True,Maître charpentier,,-1,-1
+804,Marie Anne,TISSOT,F,,,,8,,,,'',True,,,-1,-1
+805,Pierre Nicolas Suttache,PIROUT,M,1782,,21-01-1815,7,Pavilly,Pavilly,,'',True,Fileur de coton,Pavilly,-1,-1
+806,Honorine Victoire,DESABRIS,F,1793,,21-01-1815,7,Rou ...,Pavilly,,'',True,Ménagère,Pavilly,-1,-1
+807,Louis Baptiste,LORIOT,M,1797,,02-12-1820,7,Barentin,Limésy,,'',True,Chasse moute puis Journalier,Pavilly,-1,-1
+808,Marie Julie Rose,COLLEMARE,F,,15-08-1829,02-12-1820,7,Limésy,Limésy,Limésy,'Collemare ou colmare',True,,,-1,-1
+809,Jean Baptiste Guillaume,VAUTIER,M,,,,7,,,,'mort avant 1838',True,,,-1,-1
+810,Guenièvre Adélaïde,PIGEUT,F,,,,7,,,,'',True,Journalière,Duclair,-1,-1
+811,Jean Pierre,VARIN,M,,,,7,,,,'',True,Marchand,Dulcair,-1,-1
+812,Marie Madelaine,GAUTIER,F,,,,7,,,,'décédée en 1838',True,,,-1,-1
+813,Joachim,DHALLUIN,M,,28-06-1819,,7,,,Halluin,'',False,,,815,816
+814,Angélique,DUHAMEL,F,,13-02-1820,,7,,,,'',False,,,817,818
+815,Basile,DHALLUIN,M,,,,8,,,,'mort en 1842',True,,,-1,-1
+816,Marie Anne,CASTELAIN,F,,,,8,,,,'',True,,,-1,-1
+817,Pierre Joseph,DUHAMEL,M,,,,8,,,,'',True,,,-1,-1
+818,... Angélique,BRUNEL,F,,,,8,,,,'',True,,,-1,-1
+819,Charles Louis Joseph,DELPORTE,M,1784,20-09-1837,,7,,,,'décès à bousbecque ',False,Fabricant de lin,Bousbecque,820,821
+820,Jean Baptiste,DELPORTE,M,,,,8,,,,'',True,,,-1,-1
+821,Jeanne Marie,COINE,F,,,,8,,,,'',True,,,-1,-1
+822,Marie Anne Joseph,VIENNE,F,,31-09-1825,,7,,,,'décès à bousbecque ',False,,,823,824
+823,Jean Philippe Joseph,VIENNE,M,,,,8,,,,'',True,,,-1,-1
+824,Jeanne Marie,COTTEAU,F,,,,8,,,,'',True,,,-1,-1
+825,Philibert,DESCAMPS,M,1789,,,7,,,,'',True,Tisserand,Halluin,-1,-1
+826,Rosalie Joseph,HOVELAIQUE,F,,,,7,,,,'',True,,Halluin,-1,-1
+827,François Louis Joseph,VERQUIN,M,1797,,,7,,,,'',True,,Halluin,-1,-1
+828,Alexandrine Joseph,PARENT,F,,23-12-1848,,7,,,Halluin,'',True,Journalière,Halluin,-1,-1
+829,Pierre Joseph,GOETHALS,M,1774,,,7,Thielt,,,'Acte mariage enfants : Petrus Josephus',True,Tisserand,Ruysselède,-1,-1
+830,Marie Cathrine,VERBEKE,F,1782,,,7,Waereghem,,,'Acte mariage enfants : Maria Catharina ',True,,Ruysselède,-1,-1
+831,Isabelle,DEMEYERE,F,1790,,,7,,,,'',True,,,-1,-1
+832,Antoine Joseph,DECATOIRE,M,,,,8,,,,'',True,,,-1,-1
+833,Marguerite Joseph,CARLIER,F,,,,8,,,,'',True,,,-1,-1
+834,Antoine,DUMORTIER,M,,,,8,,,,'',True,,,-1,-1
+835,Marie Anne,VARAN,F,,,,8,,,,'',True,,,-1,-1
+836,Thomas,JAN,M,,20-03-1789,,7,,,Baud,'',True,Laboureur,,-1,-1
+837,Jacquette,ILLUDUT,F,,16-10-1800,,7,,,Baud,'Mort le 24 Vendémiaire An 9',True,,,-1,-1
+838,Julien,LE BERRE,M,1767,04-07-1795,18-02-1789,7,Baud,Baud,Baud,"'Mariage en duo avec son frère, Jean le Bert et Perrine Le Poëdras la sœur de sa femme\nActe décès : 17-08-1795 (30 Thermidor An 3)\nDécès : 16 Messidor An 3'",False,Laboureur,,840,841
+839,Louise,LE POËDRAS,F,,,18-02-1789,7,Languidic,Baud,,'',False,Cultivatrice,Baud,842,843
+840,Joseph,LE BERRE,M,,,,8,,,,'',True,,,-1,-1
+841,Marie,LEHEN,F,,,,8,,,,'',True,,,-1,-1
+842,Jean,LE POËDRAS,M,,,,8,,,,'',True,,,-1,-1
+843,Louise,BRIANT,F,,,,8,,,,'',True,,,-1,-1
+844,Louis,LE CORRE,M,1784,16-05-1823,,7,,,Melrand,'',True,Tailleur,Melrand,-1,-1
+845,Perrine,OLIVIERS,F,,,,7,,,,'',True,Lingère,,-1,-1
+846,Lucas,RIVALLAN,M,,24-08-1823,,7,,,Bubry,'',True,Laboureur,,-1,-1
+847,Theresse,LE GRANDVALET,F,,22-02-1817,,7,,,Bubry,'',True,Laboureuse,,-1,-1
+848,Louis,LIZIAR,M,,,,7,,,,'',True,Cultivateur,Pluguffan,-1,-1
+849,Martie Joseph,GOUÉZOU,F,,,,7,,,,'',True,,Pluguffan,-1,-1
+850,Pierre Florentin Marie,HÉMON,M,1783,,,7,,,,'Né à Nizon (Pont Aven)',True,Maréchal ferrant,Quimper,-1,-1
+851,Marie Louise,VAZE,F,1791,,,7,,,,'Née à Poullan (Poulan sur mer ?)',True,,Quimper,-1,-1
+852,François,JAFFRE,M,,,,7,,,,'',True,,,-1,-1
+853,Marie,BOCUDEC,F,,,,7,,,,'',True,,,-1,-1
+854,Jacques,ARZUR,M,,,,7,,,,'',True,Cultivateur,Plouguerneau,-1,-1
+855,Marie Anne,SALIOU,F,,,,7,,,,'',True,,Plouguerneau,-1,-1
+856,Julien,LE GOAZIOU,M,,,,7,,,,'',True,Cultivateur,Ploumilliau,-1,-1
+857,Françoise,JÉZÉQUEL,F,,,,7,,,,'',True,Cultivatrice,Ploumilliau,-1,-1
+858,Yves,HERVÉ,M,,,,7,,,,'',True,Cultivateur,Ploumilliau,-1,-1
+859,Louise Yvonne Marie Joseph,PRIGENT,F,,,,7,,,,'',True,Cultivatrice,Ploumilliau,-1,-1
+860,François,LE PIVERT,M,1772,,,7,,,,'',True,Préposé de la douane Röyal de la brigade Trébeurden,Trébeurden,-1,-1
+861,Marie Élisabet,RÉNNER,F,1782,,,7,,,,'',True,Ménagère,Trébeurden,-1,-1
+862,Joseph,LE TENSORER,M,1781,,,7,,,,'',True,Portefaix,Lannion,-1,-1
+863,Caroline,PIRIOU,F,1788,,,7,,,,'',True,Filandière,Lannion,-1,-1
+864,Jean Marie,LAGEAT,M,,,,7,,,,'',True,Maçon,Lannion,-1,-1
+865,Marie Yvonne,RIOU,F,,,,7,,,,'',True,,Lannion,-1,-1
+866,Antoine,LE PICHOURON,M,,,,7,,,,'mort en 1840',True,Couvreur,,-1,-1
+867,Marie Jeanne,LE MINOUX,F,,,,7,,,,'',True,,Lannion,-1,-1
+868,Joseph,CATHELINE,M,1764,,,7,,,,'',True,,,-1,-1
+869,Marguerite,JOÜET,F,,,,7,,,Treffendel,'Morte le 16 Prairial An 13',True,,,-1,-1
+870,Jean,DUBOIS,M,1756,17-07-1807,,7,,,Treffendel,'',True,,Treffendel,-1,-1
+871,Jeanne,ROBERT,F,,,,7,,,,'',True,,Treffendel,-1,-1
+872,François,DELALANDE,M,,28-11-1827,,7,,,Monterfil,'',True,,Monterfil,-1,-1
+873,Jeanne,LEGEARD,F,,,,7,Iffendic,,,'',True,,Monterfil,-1,-1
+874,Jacques,ROULOIS,M,1769,,,7,,,,'',True,Cultivateur,,-1,-1
+875,Marie,ORESVE,F,,,,7,,,,'',True,,,-1,-1
+876,François,LEFEUVRE,M,1767,,,7,,,,'',True,Laboureur,Monterfil,-1,-1
+877,Marguerite,DEMEURÉ,F,,11-12-1828,,7,,,Monterfil,'',True,,,-1,-1
+878,Joseph,GEFFROY,M,1771,13-05-1813,,7,,,Monterfil,'',True,Laboureur,Monterfil,-1,-1
+879,Louise,FRESNEL,F,,,,7,,,,'',True,Cultivatrice,Monterfil,-1,-1
+880,Thomas,DERONT,M,1777,09-07-1814,,7,,,Monterfil,'',True,Laboureur,Monterfil,-1,-1
+881,Françoise,MEHAULT,F,,30-10-1834,,7,,,,'',True,,,-1,-1
+882,Pierre,RIVIERE,M,1784,05-04-1817,,7,,,Monterfil,'',True,Laboureur,Monterfil,-1,-1
+883,Marguerite,MORAND,F,,,,7,,,,'',True,Cultivatrice,Monterfil,-1,-1
+884,Julien,BERHAULT,M,,,,7,,,,'',True,,Treffendel,-1,-1
+885,Perrine,GUIOT,F,,22-12-1805,,7,,,Treffendel,'Décédée le 1er Nivôse An 14',True,,Treffendel,-1,-1
+886,Guillaume,REGNAULT,M,,26-06-1785,,7,,,Treffendel,'',True,,Treffendel,-1,-1
+887,Reine,DUAULT,F,,,,7,,,,'',True,,Treffendel,-1,-1
+888,François,BAZIN,M,,,,7,,,,'',True,,,-1,-1
+889,Anne,HERVIAULT,F,,04-04-1812,,7,,,Maxent,'acte mariage fille Anne HERVE',True,,,-1,-1
+890,Julien,THOMAS,M,,01-01-1825,,7,,,Plelan-le-Grand,'',True,,Plelan-le-Grand,-1,-1
+891,Jeanne,BESNARD,F,,,,7,,,,'',True,,Plelan-le-Grand,-1,-1
+892,Pierre,COTTO,M,,,,7,,,,'',True,,Treffendel,-1,-1
+893,Barbe,DUBOIS,F,,,,7,,,,'',True,,Treffendel,-1,-1
+894,Yvere,BÉGUINNEL,M,,17-02-1805,,7,,,Treffendel,'Mort le 28 Pluviôse An 13',True,,,-1,-1
+895,Magdelaine,DANET,F,,,,7,,,,'',True,,,-1,-1
+896,Jean Marie,BERTHELOT,M,1783,,,7,,,,'',True,Cultivateur / Laboureur,Breal-sous-Montfort,-1,-1
+897,Marie,DARIEL,F,1792,24-10-1852,,7,,,Breal-sous-Montfort,'',True,,,-1,-1
+898,Joseph,HIREL,M,1792,,,7,,,,'',True,Laboureur,,-1,-1
+899,Perrine,THÉZÉ,F,1799,14-09-1835,,7,,,Breal-sous-Montfort,'',True,,,-1,-1
+900,Julien,MÉNARD,M,,,,7,,,,'',True,Cultivateur,Saint-Thurial,-1,-1
+901,Jeanne,COCAULT,F,,,,7,,,,'',True,Cultivatrice,Saint-Thurial,-1,-1
+902,Julien,RAMEL,M,,,,7,,,,'',True,,,-1,-1
+903,Perrine,BERHAULT,F,,,,7,,,,'',True,,,-1,-1

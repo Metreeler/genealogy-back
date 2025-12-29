@@ -1,0 +1,5 @@
+id,surname,name,gender,birth,death,wedding,generation,birth_city,wedding_city,death_city,notes,show_parent,job,address,father,mother
+int,str,str,str,str,str,str,int,str,str,str,str,bool,str,str,int,int
+0,Malo,HANGRAN,M,24-12-1999,,,0,Rennes,,,'',True,,,1,2
+1,Marc,HANGRAN,M,17-07-1969,,06-08-1994,1,Sainte-Adresse,Mordelles,,"""Notes de test avec l'apostrophe et\nle retour à la ligne""",True,,,-1,-1
+2,Anne-Claude,CATHELINE,F,30-09-1970,,06-08-1994,1,Rennes,Mordelles,,'',True,Enseignante,,-1,-1
